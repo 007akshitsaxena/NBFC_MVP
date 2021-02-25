@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AddEmailForUserQuestion.Value" Value="Для надсилання email повідомлень мають бути налаштовані параметри синхронізації з поштовою скринькою. Налаштувати зараз?" />
+			<Item Name="LocalizableStrings.ConnectionWithProjectDetailCaption.Value" Value="Зв'язок з проектом" />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Стрічка" />
+			<Item Name="LocalizableStrings.FullProjectNameChangedWithoutProjectSelectionWarning.Value" Value="Значення поля &quot;Проект&quot; некоректно" />
+			<Item Name="LocalizableStrings.ProjectResourceElementMissing.Value" Value="Контакт {0} не вазано в аркуші ресурсів проекту. Додати новий запис в аркуш ресурсів?" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Підписатись на оновлення стрічки" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Ви підписані на оновлення стрічки: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Хронологія" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Відписатись від оновлень стрічки" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Ви відписані від оновлень стрічки: {0}" />
+		</Items>
+	</Group>
+</Resources>

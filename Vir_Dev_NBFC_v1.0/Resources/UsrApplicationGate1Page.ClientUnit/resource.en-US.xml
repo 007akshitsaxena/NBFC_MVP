@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Application Gate&quot;" />
+			<Item Name="LocalizableStrings.FilesDetailCaptionOnPage.Value" Value="Official Documents" />
+			<Item Name="LocalizableStrings.LOOKUP879576ec1d694f4fac493e8acf7ccc17LabelCaption.Value" Value="Customer Name" />
+			<Item Name="LocalizableStrings.NotesAndFilesTabCaption.Value" Value="Documents Information" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroup503ddd36GroupCaption.Value" Value="Action Step" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroup5f65289dGroupCaption.Value" Value="Perfios Results" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroup6cbd5d0aGroupCaption.Value" Value="PAN Details" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroup898a2d80GroupCaption.Value" Value="Address" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroup9f7902b4GroupCaption.Value" Value="Aadhaar Details" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroupa08d0250GroupCaption.Value" Value="ESign Information" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroupa1cfd680GroupCaption.Value" Value="Application" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroupb2f38e7bGroupCaption.Value" Value="Loan Information" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroupc6c3ad25GroupCaption.Value" Value="Processing Result" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroupc9bd3f65GroupCaption.Value" Value="KYC Information" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroupf13adfd5GroupCaption.Value" Value="Family Information" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroupf3337438GroupCaption.Value" Value="Agreement" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelGroupf64a23ecGroupCaption.Value" Value="Customer Address" />
+			<Item Name="LocalizableStrings.Tab4a7f34e2TabLabelTabCaption.Value" Value="General Information " />
+			<Item Name="LocalizableStrings.Tab994f854aTabLabelGroup715860abGroupCaption.Value" Value="Sales" />
+			<Item Name="LocalizableStrings.Tab994f854aTabLabelGroupe4321e0cGroupCaption.Value" Value="Processing Result" />
+			<Item Name="LocalizableStrings.Tab994f854aTabLabelTabCaption.Value" Value="Process Information" />
+			<Item Name="LocalizableStrings.UsrFSRegZip1e3c3804737b4baf90817ef662f2341aLabelCaption.Value" Value="ZIP " />
+			<Item Name="LocalizableStrings.UsrFSRegZip316e5041c26a41ecabd178836900f33bLabelCaption.Value" Value="ZIP Code" />
+			<Item Name="LocalizableStrings.UsrTSAgreements7fcf10fb570e440383af4a2a482ae3f2LabelCaption.Value" Value="Agreement" />
+			<Item Name="LocalizableStrings.UsrTSBirthDate2c9a35c8dd414d5c952ff3723bb3c209LabelCaption.Value" Value="Date Of Birth" />
+			<Item Name="LocalizableStrings.UsrTSBirthDate391a50277e684bc6b5b1c440eecfc700LabelCaption.Value" Value="Date of Birth" />
+			<Item Name="LocalizableStrings.UsrTSEmail55952dc37c9344e3a2df83b837f3cecaLabelCaption.Value" Value="Email" />
+			<Item Name="LocalizableStrings.UsrTSEmail56b9aea3ce5b46328735e99aeed2cf40LabelCaption.Value" Value="Email" />
+			<Item Name="LocalizableStrings.UsrTSGivenName45a9612617a84855b46d84ad5271f787LabelCaption.Value" Value="First Name" />
+			<Item Name="LocalizableStrings.UsrTSGivenNamef189fe47ac3046f9822f1f5dcd03e625LabelCaption.Value" Value="First Name" />
+			<Item Name="LocalizableStrings.UsrTSMiddleName3c92f91d4787477cafd777a9c5b1ca94LabelCaption.Value" Value="Middle Name" />
+			<Item Name="LocalizableStrings.UsrTSMiddleName567f3055068742cc98ee43313fadd868LabelCaption.Value" Value="Middle Name" />
+			<Item Name="LocalizableStrings.UsrTSMobileNumber263672252138450c8565b16385d8d44bLabelCaption.Value" Value="Mobile Number" />
+			<Item Name="LocalizableStrings.UsrTSMobileNumber988a3ecacd574dcb9956fb8e0660468cLabelCaption.Value" Value="Mobile Number" />
+			<Item Name="LocalizableStrings.UsrTSMonthlyIncome8bc9ea9b2c4849ca83bd56cf90d2911aLabelCaption.Value" Value="Monthly Income" />
+			<Item Name="LocalizableStrings.UsrTSRegBuilding1f65b2b7dd7ca46ab8eb7cee3867cdd43LabelCaption.Value" Value="Reg Building 1" />
+			<Item Name="LocalizableStrings.UsrTSRegStreetba10e9bdf2114b178ae78096e47d1fbdLabelCaption.Value" Value="Reg Street" />
+			<Item Name="LocalizableStrings.UsrTSSurnamedfbf927d5b16478d87ca15f5f4df9d44LabelCaption.Value" Value="Last Name" />
+		</Items>
+	</Group>
+</Resources>

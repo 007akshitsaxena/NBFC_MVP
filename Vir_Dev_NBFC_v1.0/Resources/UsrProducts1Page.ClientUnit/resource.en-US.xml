@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Products&quot;" />
+			<Item Name="LocalizableStrings.BOOLEANae4cef953fcd4d86a92b1a49c6e335e5LabelCaption.Value" Value="Default " />
+			<Item Name="LocalizableStrings.LOOKUP328f3b9e6e714a468d291a8ae70f9484LabelCaption.Value" Value="Category" />
+			<Item Name="LocalizableStrings.LOOKUP5d58c4d905f9424687f2b65087e7361aLabelCaption.Value" Value="Status" />
+			<Item Name="LocalizableStrings.LOOKUP5dc3203efc85481a8062f4edb64f50faLabelCaption.Value" Value="Type" />
+			<Item Name="LocalizableStrings.LOOKUPf7bd0818294743629263fd0506cb96a0LabelCaption.Value" Value="Class" />
+			<Item Name="LocalizableStrings.Tab1a465bfcTabLabelTabCaption.Value" Value="Applications" />
+			<Item Name="LocalizableStrings.Tab371d7336TabLabelTabCaption.Value" Value="Agreements" />
+			<Item Name="LocalizableStrings.Tab6b41fb0aTabLabelTabCaption.Value" Value="Features" />
+			<Item Name="LocalizableStrings.Tabbc3eefccTabLabelGroup16661725GroupCaption.Value" Value="General Information" />
+			<Item Name="LocalizableStrings.Tabbc3eefccTabLabelGroup37f5016cGroupCaption.Value" Value="Application Eligibility Check" />
+			<Item Name="LocalizableStrings.Tabbc3eefccTabLabelGroup3bb11b30GroupCaption.Value" Value="Product Specification Check" />
+			<Item Name="LocalizableStrings.Tabbc3eefccTabLabelGroup423f4686GroupCaption.Value" Value="Applications Verification Criteria" />
+			<Item Name="LocalizableStrings.Tabbc3eefccTabLabelGroup680e7bb3GroupCaption.Value" Value="Salaried Loan Eligibility " />
+			<Item Name="LocalizableStrings.Tabbc3eefccTabLabelGroup7390d31eGroupCaption.Value" Value="Self Employed Loan Eligibility" />
+			<Item Name="LocalizableStrings.Tabbc3eefccTabLabelTabCaption.Value" Value="General Information" />
+			<Item Name="LocalizableStrings.Tabeb0beff8TabLabelTabCaption.Value" Value="Lender Information" />
+			<Item Name="LocalizableStrings.UsrSchema0c2c85c5Detail437a19ddDetailCaptionOnPage.Value" Value="Applications " />
+			<Item Name="LocalizableStrings.UsrSchemaccf8d633Detail02a7c983DetailCaptionOnPage.Value" Value="Agreements " />
+		</Items>
+	</Group>
+</Resources>

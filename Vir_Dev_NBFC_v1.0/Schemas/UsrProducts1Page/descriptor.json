@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0429c146-ce27-40c7-be9b-324295044489",
+    "Name": "UsrProducts1Page",
+    "ModifiedOnUtc": "\/Date(1613921397000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Products\"",
+    "DependsOn": []
+  }
+}

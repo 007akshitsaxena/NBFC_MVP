@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b11a9957-f8bb-4e3b-9313-8cd89613d56f",
+    "Name": "UsrProductsInFolder",
+    "ModifiedOnUtc": "\/Date(1612499821000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Products in Folder",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Section schema: &quot;Leads&quot;" />
+			<Item Name="LocalizableStrings.ConfigureLeadTypes.Value" Value="ตั้งค่าความจำเป็นของลูกค้า" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Caption" Value="DisqualificationButtonCaption" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="ไม่มีคุณสมบัติ" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.LeadScoredBody.Value" Value="คะแนนเชิงทำนายของleadคือ {0}" />
+			<Item Name="LocalizableStrings.LeadScoredTitle.Value" Value="lead &quot;{0}&quot;" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="กระจาย" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="มีคุณสมบัติ" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="ดำเนินการส่งต่อ" />
+			<Item Name="LocalizableStrings.ScoreLeadActionCaption.Value" Value="ประเมินคะแนนเชิงทำนาย" />
+			<Item Name="LocalizableStrings.ScoreLeadActionGeneralErrorMessage.Value" Value="การทำงานเสร็จด้วยความล้มเหลว  คุณสามารถหารายละเอียดในบันทึกของแอปพลิเคชั่น" />
+			<Item Name="LocalizableStrings.ScoreLeadActionNoModelsErrorMessage.Value" Value="ไม่มีโมเดลสำหรับให้คะแนนleadเชิงทำนาย" />
+		</Items>
+	</Group>
+</Resources>

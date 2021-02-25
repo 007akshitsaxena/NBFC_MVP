@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "31aa667f-ce59-44d2-bd36-b275bc6e15fb",
+    "Name": "UsrParentProcessforCreatingContract",
+    "ModifiedOnUtc": "\/Date(1613971636000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Parent Process for Creating Contract (Call 3)",
+    "DependsOn": []
+  }
+}

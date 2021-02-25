@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-BR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Section schema: &quot;Leads&quot;" />
+			<Item Name="LocalizableStrings.ConfigureLeadTypes.Value" Value="Configurar as necessidades do cliente" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Caption" Value="DisqualificationButtonCaption" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="Desqualificar" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.LeadScoredBody.Value" Value="Predictive lead score is {0}" />
+			<Item Name="LocalizableStrings.LeadScoredTitle.Value" Value="Lead &quot;{0}&quot;" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="Distribuir" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="Qualificar" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="Avançar para handoff" />
+			<Item Name="LocalizableStrings.ScoreLeadActionCaption.Value" Value="Evaluate predictive score" />
+			<Item Name="LocalizableStrings.ScoreLeadActionGeneralErrorMessage.Value" Value="Action has been finished with failure. You can find details in the application log" />
+			<Item Name="LocalizableStrings.ScoreLeadActionNoModelsErrorMessage.Value" Value="There are no predictive lead scoring models available" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Seguir o feed" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Parar de seguir o feed" />
+		</Items>
+	</Group>
+</Resources>

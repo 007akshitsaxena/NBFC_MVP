@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sv-SE">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Section schema: &quot;Leads&quot;" />
+			<Item Name="LocalizableStrings.ConfigureLeadTypes.Value" Value="Ställ in kundbehov" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Caption" Value="DisqualificationButtonCaption" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="Diskvalificera" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="The report will be generated for all records in the section, without filters. Do you wish to proceed?" />
+			<Item Name="LocalizableStrings.LeadScoredBody.Value" Value="Förutsagd lead-poäng är {0}" />
+			<Item Name="LocalizableStrings.LeadScoredTitle.Value" Value="Lead &quot;{0}&quot;" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="Distribuera" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="Kvalificera" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="Gå vidare till överlämning" />
+			<Item Name="LocalizableStrings.ScoreLeadActionCaption.Value" Value="Utvärdera förutsägelsepoäng" />
+			<Item Name="LocalizableStrings.ScoreLeadActionGeneralErrorMessage.Value" Value="Åtgärden har slutförts med fel. Du kan hitta detaljer i programloggen" />
+			<Item Name="LocalizableStrings.ScoreLeadActionNoModelsErrorMessage.Value" Value="Det finns inga förutsägelse-leadbedömningsmodeller tillgängliga" />
+		</Items>
+	</Group>
+</Resources>

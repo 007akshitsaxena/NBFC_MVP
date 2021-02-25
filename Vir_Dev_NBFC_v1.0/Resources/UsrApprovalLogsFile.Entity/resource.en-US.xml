@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Approval Logs attachment" />
+			<Item Name="Columns.UsrApprovalLogs.Caption" Value="Approval Logs" />
+		</Items>
+	</Group>
+</Resources>

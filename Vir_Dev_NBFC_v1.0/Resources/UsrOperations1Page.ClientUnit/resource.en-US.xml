@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Operations&quot;" />
+			<Item Name="LocalizableStrings.Tab7f241fc0TabLabelGroup45641765GroupCaption.Value" Value="Parameters" />
+			<Item Name="LocalizableStrings.Tab7f241fc0TabLabelGroup8eaf1096GroupCaption.Value" Value="Connections" />
+			<Item Name="LocalizableStrings.Tab7f241fc0TabLabelTabCaption.Value" Value="General Information" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "164f4f4f-dda2-4d64-8bda-d47b65be9a0e",
+    "Name": "UsrVisaType",
+    "ModifiedOnUtc": "\/Date(1612705761000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Approval type",
+    "DependsOn": []
+  }
+}

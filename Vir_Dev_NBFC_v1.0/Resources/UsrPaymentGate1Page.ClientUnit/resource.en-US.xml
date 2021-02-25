@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Payment Gate&quot;" />
+			<Item Name="LocalizableStrings.FLOATf39d8c8aff5c404880f6130fa5a0510eLabelCaption.Value" Value="Amount Paid" />
+		</Items>
+	</Group>
+</Resources>

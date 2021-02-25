@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b64646a7-1d8c-4b28-9a76-643a819b1bb8",
+    "Name": "UsrApprovalLogs",
+    "ModifiedOnUtc": "\/Date(1613680766000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Approval Logs",
+    "DependsOn": []
+  }
+}

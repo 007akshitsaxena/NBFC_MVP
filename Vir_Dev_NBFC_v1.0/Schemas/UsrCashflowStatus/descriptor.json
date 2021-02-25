@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "da988c67-5562-4b25-b704-7b489243835f",
+    "Name": "UsrCashflowStatus",
+    "ModifiedOnUtc": "\/Date(1612706732000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Funds flow status",
+    "DependsOn": []
+  }
+}

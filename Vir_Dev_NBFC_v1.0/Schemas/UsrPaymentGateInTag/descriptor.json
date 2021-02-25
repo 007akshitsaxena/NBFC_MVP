@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "74d636b3-2e0c-487b-816e-90ccbdf97255",
+    "Name": "UsrPaymentGateInTag",
+    "ModifiedOnUtc": "\/Date(1614080400000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Payment Gate section record tag",
+    "DependsOn": []
+  }
+}

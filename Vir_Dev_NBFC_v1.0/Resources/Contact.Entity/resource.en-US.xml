@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.UsrAadhaarAddress.Caption" Value="Aadhaar Address" />
+			<Item Name="Columns.UsrAadhaarDOB.Caption" Value="Date of Birth on Aadhaar" />
+			<Item Name="Columns.UsrAadhaarFirstName.Caption" Value="First Name as per Aadhaar" />
+			<Item Name="Columns.UsrAadhaarLastName.Caption" Value="Last Name as per Aadhaar" />
+			<Item Name="Columns.UsrAadhaarMiddleName.Caption" Value="Middle Name as per Aadhaar" />
+			<Item Name="Columns.UsrAadhaarNumber.Caption" Value="Aadhaar Number" />
+			<Item Name="Columns.UsrAmountOnActiveApplications.Caption" Value="Total Amount on Active Applications" />
+			<Item Name="Columns.UsrCoApplicantMobileNumber.Caption" Value="Co-Applicant Mobile Number" />
+			<Item Name="Columns.UsrCoApplicantName.Caption" Value="Co-Applicant Name" />
+			<Item Name="Columns.UsrCoApplicantRelationship.Caption" Value="Co- Applicant Relationship" />
+			<Item Name="Columns.UsrCommunicationType.Caption" Value="Communication Type" />
+			<Item Name="Columns.UsrDependentOfCounts.Caption" Value="Dependents of Counts" />
+			<Item Name="Columns.UsrEmployementType.Caption" Value="Employment Type" />
+			<Item Name="Columns.UsrFatherName.Caption" Value="Father's Name" />
+			<Item Name="Columns.UsrIsAadhaarVerified.Caption" Value="Is Aadhaar Verified" />
+			<Item Name="Columns.UsrIsLostCustomer.Caption" Value="Is Lost Customer" />
+			<Item Name="Columns.UsrMaritalStatus.Caption" Value="Marital Status" />
+			<Item Name="Columns.UsrMasterFieldsUpdated.Caption" Value="Master Fields Updated" />
+			<Item Name="Columns.UsrMonthlyIncome.Caption" Value="Monthly Income" />
+			<Item Name="Columns.UsrNumberOfRejectedApplications.Caption" Value="Number of Rejected Applications " />
+			<Item Name="Columns.UsrPANBirthDate.Caption" Value="Date of Birth on PAN" />
+			<Item Name="Columns.UsrPANCheckStatus.Caption" Value="PAN Check Status" />
+			<Item Name="Columns.UsrPANFatherName.Caption" Value="Father's Name on PAN" />
+			<Item Name="Columns.UsrPANFirstName.Caption" Value="First Name as per PAN" />
+			<Item Name="Columns.UsrPANLastName.Caption" Value="Last Name as per PAN" />
+			<Item Name="Columns.UsrPANMiddleName.Caption" Value="Middle Name as per PAN" />
+			<Item Name="Columns.UsrPANNumber.Caption" Value="PAN Number" />
+			<Item Name="Columns.UsrSpouseName.Caption" Value="Spouse's Name" />
+			<Item Name="Columns.UsrTotalNumberApplications.Caption" Value="Total Number of Applications" />
+			<Item Name="Columns.UsrTotalNumberOfActiveApplications.Caption" Value="Total Number of Active Applications" />
+			<Item Name="Columns.UsrWorkplace.Caption" Value="Place Of Work" />
+		</Items>
+	</Group>
+</Resources>

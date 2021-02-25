@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "28a29ebd-17e4-4933-a522-9c09ea5e9bd2",
+    "Name": "UsrProcess_96daa39",
+    "ModifiedOnUtc": "\/Date(1614144560000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Interest per day calculation Process",
+    "DependsOn": []
+  }
+}

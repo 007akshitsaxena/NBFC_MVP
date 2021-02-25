@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "314bf9d8-7287-4cd3-9507-bf607cc8b292",
+    "Name": "UsrContactCommunicationOptionRecordAddition",
+    "ModifiedOnUtc": "\/Date(1613196337000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Contact Communication Option Creation Process",
+    "DependsOn": []
+  }
+}

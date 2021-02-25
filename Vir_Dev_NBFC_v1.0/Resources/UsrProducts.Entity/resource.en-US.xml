@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Products" />
+			<Item Name="Columns.UsrContact.Caption" Value="Contact" />
+			<Item Name="Columns.UsrEmailOnActiveAppCheck.Caption" Value="Email on Active Applications Check" />
+			<Item Name="Columns.UsrEndDate.Caption" Value="End Date" />
+			<Item Name="Columns.UsrIndustryTypeCheck.Caption" Value="Industry Type Check" />
+			<Item Name="Columns.UsrIsDefaultProduct.Caption" Value="Is Default Product " />
+			<Item Name="Columns.UsrLast30DaysRejectedApplications.Caption" Value="Number of Applications rejected in last 30 days" />
+			<Item Name="Columns.UsrLast30DaysRejectedApplicationsCheck.Caption" Value="Rejected Applications in Last 30 Days Check" />
+			<Item Name="Columns.UsrLast6MonthsNumberOfDPD.Caption" Value="Number of DPD in last 6 months" />
+			<Item Name="Columns.UsrLastLoanClosureCheck.Caption" Value="Last Loan Closure Check" />
+			<Item Name="Columns.UsrLender.Caption" Value="Lender " />
+			<Item Name="Columns.UsrMaxAge.Caption" Value="Max Age" />
+			<Item Name="Columns.UsrMaxLoanAmount.Caption" Value="Max Loan Amount" />
+			<Item Name="Columns.UsrMaxLoanTerm.Caption" Value="Max Loan Term" />
+			<Item Name="Columns.UsrMinAge.Caption" Value="Min Age" />
+			<Item Name="Columns.UsrMinAndMaxAgeCheck.Caption" Value="Min. and Max. Age Check" />
+			<Item Name="Columns.UsrMinAndMaxRequestedLoanAmountCheck.Caption" Value="Min. and Max. Requested Loan Amount Check" />
+			<Item Name="Columns.UsrMinAndMaxRequestedLoanTermCheck.Caption" Value="Min. and Max. Requested Loan Term Check" />
+			<Item Name="Columns.UsrMinLoanAmount.Caption" Value="Min Loan Amount" />
+			<Item Name="Columns.UsrMinLoanTerm.Caption" Value="Min Loan Term" />
+			<Item Name="Columns.UsrMobileNumberOnActiveAppCheck.Caption" Value="Mobile Number on Active Applications Check" />
+			<Item Name="Columns.UsrMonthlyIncomeCheck.Caption" Value="Monthly Income Check" />
+			<Item Name="Columns.UsrNewDiscountFactorCheck.Caption" Value="New Discount Factor Check" />
+			<Item Name="Columns.UsrNewLoanAmountEligibility.Caption" Value="New Loan Amount Eligibility" />
+			<Item Name="Columns.UsrNewLoanDiscount.Caption" Value="New Loan Discount" />
+			<Item Name="Columns.UsrNewLoanEligibilityCheck.Caption" Value="New Loan Eligibility Check" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrProductCategory.Caption" Value="Product Category" />
+			<Item Name="Columns.UsrProductClass.Caption" Value="Product Class" />
+			<Item Name="Columns.UsrProductStatus.Caption" Value="Product Status" />
+			<Item Name="Columns.UsrProductType.Caption" Value="Product Type" />
+			<Item Name="Columns.UsrReasonForLoanCheck.Caption" Value="Reason for Loan Check" />
+			<Item Name="Columns.UsrRepeatDiscountFactorCheck.Caption" Value="Repeat Discount Factor Check" />
+			<Item Name="Columns.UsrRepeatLoanAmountEligibility.Caption" Value="Repeat Loan Amount Eligibility" />
+			<Item Name="Columns.UsrRepeatLoanDiscount.Caption" Value="Repeat Loan Discount" />
+			<Item Name="Columns.UsrRepeatLoanEligibilityCheck.Caption" Value="Repeat Loan Eligibility Check" />
+			<Item Name="Columns.UsrRequiredMonthlyIncome.Caption" Value="Required Monthly Income" />
+			<Item Name="Columns.UsrSalariedEligibleLoanAmount.Caption" Value="Salaried Eligible Loan Amount" />
+			<Item Name="Columns.UsrSalariedLoanAmountEligibilityCheck.Caption" Value="Salaried Loan Amount Eligibility Check" />
+			<Item Name="Columns.UsrSalariedLoanDiscountFactor.Caption" Value="Salaried Loan Discount Factor" />
+			<Item Name="Columns.UsrSalariedLoanDiscountFactorCheck.Caption" Value="Salaried Loan Discount Factor Check" />
+			<Item Name="Columns.UsrSelfEmployedEligibleLoanAmount.Caption" Value="Self Employed Eligible Loan Amount" />
+			<Item Name="Columns.UsrSelfEmployedLoanAmountEligibilityCheck.Caption" Value="Self Employed Loan Amount Eligibility Check" />
+			<Item Name="Columns.UsrSelfEmployedLoanDiscountFactor.Caption" Value="Self Employed Loan Discount Factor" />
+			<Item Name="Columns.UsrSelfEmployedLoanDiscountFactorCheck.Caption" Value="Self Employed Loan Discount Factor Check" />
+			<Item Name="Columns.UsrStartDate.Caption" Value="Start Date" />
+		</Items>
+	</Group>
+</Resources>

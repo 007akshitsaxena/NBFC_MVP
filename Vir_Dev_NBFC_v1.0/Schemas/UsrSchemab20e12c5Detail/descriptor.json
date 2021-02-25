@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b273a371-845e-44d5-bcc4-088f023c9197",
+    "Name": "UsrSchemab20e12c5Detail",
+    "ModifiedOnUtc": "\/Date(1612512467000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Debt Calculation\"",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "a8613a4f-ea12-42d5-b054-129f9d29fa97",
+    "Name": "UsrPaymentGate1Page",
+    "ModifiedOnUtc": "\/Date(1614158314000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Payment Gate\"",
+    "DependsOn": []
+  }
+}

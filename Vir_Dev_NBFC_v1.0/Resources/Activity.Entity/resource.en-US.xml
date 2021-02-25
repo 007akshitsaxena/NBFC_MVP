@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.UsrAgreement.Caption" Value="Agreement" />
+			<Item Name="Columns.UsrApplication.Caption" Value="Application" />
+		</Items>
+	</Group>
+</Resources>

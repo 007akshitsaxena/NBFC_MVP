@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "c5580d86-1982-4c3b-9885-100716696fa0",
+    "Name": "UsrApplicationsTag",
+    "ModifiedOnUtc": "\/Date(1612440359000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Applications section tag",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "332c26d2-a2e1-42d1-bdf0-17da4dd12d23",
+    "Name": "UsrApprovalFolder",
+    "ModifiedOnUtc": "\/Date(1612432218000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Approval folder",
+    "DependsOn": []
+  }
+}

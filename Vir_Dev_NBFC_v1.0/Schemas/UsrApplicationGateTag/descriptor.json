@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2e5db52b-8842-432d-8cb3-0b58b0fcdf63",
+    "Name": "UsrApplicationGateTag",
+    "ModifiedOnUtc": "\/Date(1612421564000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Application Gate section tag",
+    "DependsOn": []
+  }
+}

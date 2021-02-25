@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "7059749e-fda3-4adf-9c10-833ab81f7279",
+    "Name": "UsrCreateContractProcess",
+    "ModifiedOnUtc": "\/Date(1614055441000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Create Contract Process",
+    "DependsOn": []
+  }
+}

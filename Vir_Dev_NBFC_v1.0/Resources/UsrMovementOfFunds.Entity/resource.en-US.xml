@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Funds Flow" />
+			<Item Name="Columns.UsrAgreement.Caption" Value="Contract" />
+			<Item Name="Columns.UsrAmount.Caption" Value="Amount" />
+			<Item Name="Columns.UsrCashFlowSubCategory.Caption" Value="Cashflow Sub Category" />
+			<Item Name="Columns.UsrCategory.Caption" Value="Category" />
+			<Item Name="Columns.UsrContact.Caption" Value="Individual" />
+			<Item Name="Columns.UsrDisbursmentStatus.Caption" Value="Disubursment Status" />
+			<Item Name="Columns.UsrName.Caption" Value="Number" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrOwner.Caption" Value="Owner" />
+			<Item Name="Columns.UsrStatus.Caption" Value="Status" />
+			<Item Name="Columns.UsrType.Caption" Value="Type" />
+		</Items>
+	</Group>
+</Resources>

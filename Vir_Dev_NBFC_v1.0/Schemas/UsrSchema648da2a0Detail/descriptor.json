@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "d13c18de-ba6b-4613-bf72-ed8153c2cfe3",
+    "Name": "UsrSchema648da2a0Detail",
+    "ModifiedOnUtc": "\/Date(1612706074000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Approvals\"",
+    "DependsOn": []
+  }
+}

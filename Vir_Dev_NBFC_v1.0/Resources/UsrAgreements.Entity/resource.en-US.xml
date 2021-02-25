@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Agreements" />
+			<Item Name="Columns.UsrActivationTransactionId.Caption" Value="ActivationTransactionId" />
+			<Item Name="Columns.UsrAgreementStatus.Caption" Value="Individual Contract Status" />
+			<Item Name="Columns.UsrApprovedTenureInMonths.Caption" Value="Approved Tenure in Months" />
+			<Item Name="Columns.UsrBalancedDebtAmount.Caption" Value="Balanced Debt Amount" />
+			<Item Name="Columns.UsrClosedOn.Caption" Value="ClosedOn" />
+			<Item Name="Columns.UsrDPD.Caption" Value="DPD" />
+			<Item Name="Columns.UsrFirstOverdueDate.Caption" Value="First overdue date" />
+			<Item Name="Columns.UsrFSDisbursmentDate.Caption" Value="Disbursment Date" />
+			<Item Name="Columns.UsrFSLastLongationTerm.Caption" Value="Last longation term" />
+			<Item Name="Columns.UsrFSLonlgationCount.Caption" Value="Longation count" />
+			<Item Name="Columns.UsrIsAgreementApproved.Caption" Value="Is Agreement Submitted" />
+			<Item Name="Columns.UsrIsDisbursementFailed.Caption" Value="IsDisbursementFailed" />
+			<Item Name="Columns.UsrIsDisbursmentSMSSent.Caption" Value="IsDisbursmentSMSSent" />
+			<Item Name="Columns.UsrIsInterestCalculated.Caption" Value="Is Interest Calculated" />
+			<Item Name="Columns.UsrIsStorno.Caption" Value="IsStorno" />
+			<Item Name="Columns.UsrLastOverdueDate.Caption" Value="Last overdue date" />
+			<Item Name="Columns.UsrLender.Caption" Value="Lender" />
+			<Item Name="Columns.UsrMaxDPD.Caption" Value="Maximum DPD" />
+			<Item Name="Columns.UsrName.Caption" Value="Number" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrNumberOfEMICustomerWantsToPay.Caption" Value="Number of EMI's Customer want to pay" />
+			<Item Name="Columns.UsrOperationCategory.Caption" Value="Operation Category" />
+			<Item Name="Columns.UsrOverpaymentDebtAmount.Caption" Value="OverpaymentDebtAmount" />
+			<Item Name="Columns.UsrProductCategory.Caption" Value="Product Category" />
+			<Item Name="Columns.UsrProductClass.Caption" Value="Product Class" />
+			<Item Name="Columns.UsrProducts.Caption" Value="Product " />
+			<Item Name="Columns.UsrProductType.Caption" Value="Product Type" />
+			<Item Name="Columns.UsrTotalDebtAmount.Caption" Value="Total Debt Amount" />
+			<Item Name="Columns.UsrTotalDebtCalculationDate.Caption" Value="Total Debt Calculation Date" />
+			<Item Name="Columns.UsrTSAgreementCustomerIP.Caption" Value="Agreement Customer IP" />
+			<Item Name="Columns.UsrTSAgreementTimeStamp.Caption" Value="Agreement Time Stamp" />
+			<Item Name="Columns.UsrTSApplication.Caption" Value="Application" />
+			<Item Name="Columns.UsrTSCashIssueDate.Caption" Value="CashIssueDate" />
+			<Item Name="Columns.UsrTSContact.Caption" Value="Contact" />
+			<Item Name="Columns.UsrTSExpiresOn.Caption" Value="ExpiresOn" />
+			<Item Name="Columns.UsrTSHashedAppGateLink.Caption" Value="Hashed Link to Web Site" />
+			<Item Name="Columns.UsrTSInsuranceCode.Caption" Value="Insurance Code" />
+			<Item Name="Columns.UsrTSInsuranceFee.Caption" Value="TSInsuranceFee" />
+			<Item Name="Columns.UsrTSIsInsurance.Caption" Value="TSIsInsurance" />
+			<Item Name="Columns.UsrTSIsSettled.Caption" Value="Is Settled" />
+			<Item Name="Columns.UsrTSIsWaived.Caption" Value="Is Waived" />
+			<Item Name="Columns.UsrTSOwner.Caption" Value="Owner" />
+			<Item Name="Columns.UsrTSPenaltyPaymentOn.Caption" Value="Grace period finished on" />
+			<Item Name="Columns.UsrTSSignedOn.Caption" Value="SignedOn" />
+			<Item Name="Columns.UsrTSValidFrom.Caption" Value="ValidFrom" />
+			<Item Name="Columns.UsrTSWaivedAmount.Caption" Value="Waived Amount" />
+			<Item Name="Columns.UsrWrittenOffDate.Caption" Value="Witten off date" />
+		</Items>
+	</Group>
+</Resources>

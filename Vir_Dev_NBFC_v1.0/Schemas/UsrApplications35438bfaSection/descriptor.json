@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "12862aec-30a8-4865-8380-d2ecb6167188",
+    "Name": "UsrApplications35438bfaSection",
+    "ModifiedOnUtc": "\/Date(1612440347000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Applications\"",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Approval Logs" />
+			<Item Name="Columns.UsrAge.Caption" Value="Age" />
+			<Item Name="Columns.UsrAgeVerificationStatus.Caption" Value="Age Verification Status" />
+			<Item Name="Columns.UsrApplicationGate.Caption" Value="Application Gate" />
+			<Item Name="Columns.UsrApplicationId.Caption" Value="Application Id" />
+			<Item Name="Columns.UsrApprovalType.Caption" Value="Approval Type" />
+			<Item Name="Columns.UsrBankAccountFoundOnAnyOtherActiveLoan.Caption" Value="Active Loan on Bank Account" />
+			<Item Name="Columns.UsrContact.Caption" Value="Contact" />
+			<Item Name="Columns.UsrEmailFoundInOtherActiveApplications.Caption" Value="Number of Active Applications with Email" />
+			<Item Name="Columns.UsrLastLoanClosureDPD.Caption" Value="Number of record with DPD &gt; 0 in last 6 months" />
+			<Item Name="Columns.UsrMobileFoundInOtherActiveApplications.Caption" Value="Number of Active Applications with Mobile Number" />
+			<Item Name="Columns.UsrMonthlyIncomeVerificationStatus.Caption" Value="Monthly Income Verification Status" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrNewCustomerLoanEligibility.Caption" Value="Is New Customer eligible for Loan Amount" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrRejectedAppLast30Days.Caption" Value="No of Applications rejected in last 30 days" />
+			<Item Name="Columns.UsrRepeatCustomerLoanEligibility.Caption" Value="Is Repeat Customer eligible for Loan Amount" />
+			<Item Name="Columns.UsrRequestedLoanAmountVerificationStatus.Caption" Value="Requested Loan Amount Verification Status" />
+			<Item Name="Columns.UsrRequestedLoanTermVerificationStatus.Caption" Value="Requested Loan Term Verification Status" />
+			<Item Name="Columns.UsrSalariedCustomerLoanEligibility.Caption" Value="Is Salaried Customer eligible for Loan Amount" />
+			<Item Name="Columns.UsrSelfEmployedCustomerLoanEligibility.Caption" Value="Is Self Employed Customer eligible for Loan Amount" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Payment Gate" />
+			<Item Name="Columns.UsrAgreement.Caption" Value="Agreement" />
+			<Item Name="Columns.UsrAmountPaid.Caption" Value="Amount Paid by Customer" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrNumberOfMonthsCustomerWantsToPay.Caption" Value="Number of Month Customer wants to pay" />
+			<Item Name="Columns.UsrPaymentMadeOn.Caption" Value="Payment Made On" />
+		</Items>
+	</Group>
+</Resources>

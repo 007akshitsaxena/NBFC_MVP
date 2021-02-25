@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Agreements&quot;" />
+			<Item Name="LocalizableStrings.DATETIME5dd038a8f5634609907023b92a01189eLabelCaption.Value" Value="Date of Final Debt Calculation" />
+			<Item Name="LocalizableStrings.LOOKUP94caea1bbd84485f8b583513ac4f19feLabelCaption.Value" Value="Transactional Category" />
+			<Item Name="LocalizableStrings.LOOKUPfbbf5d989a25443abf749128a6a01445LabelCaption.Value" Value="Status" />
+			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup486e40a6GroupCaption.Value" Value="EMI Repayment " />
+			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup714ea320GroupCaption.Value" Value="Debt Calculations" />
+			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup7ebdfaa1GroupCaption.Value" Value="Digital Mandate" />
+			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup948b033eGroupCaption.Value" Value="Status" />
+			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroupb31f84ecGroupCaption.Value" Value="Product " />
+			<Item Name="LocalizableStrings.Tab4886e313TabLabelTabCaption.Value" Value="General Information" />
+			<Item Name="LocalizableStrings.Tab54c945a3TabLabelTabCaption.Value" Value="Payment History" />
+			<Item Name="LocalizableStrings.Tab62db95d7TabLabelTabCaption.Value" Value="Parameters" />
+			<Item Name="LocalizableStrings.Tabe8aaf4e6TabLabelTabCaption.Value" Value="Activities" />
+			<Item Name="LocalizableStrings.UsrSchema0ea7e772Detail2a72ba92DetailCaptionOnPage.Value" Value="Payment Records" />
+			<Item Name="LocalizableStrings.UsrSchemab20e12c5Detail43a30c27DetailCaptionOnPage.Value" Value="Debts" />
+			<Item Name="LocalizableStrings.UsrSchemacea130deDetail888c9091DetailCaptionOnPage.Value" Value="Parameters" />
+			<Item Name="LocalizableStrings.UsrTSApplicationca488883bc7a4127891e0864838cfb3dLabelCaption.Value" Value="Request" />
+			<Item Name="LocalizableStrings.UsrTSContact890a44fc5a1f44dc98193efec9ad8863LabelCaption.Value" Value="Individual" />
+			<Item Name="LocalizableStrings.UsrTSExpiresOnbd42965153434140a1f1b72122c464baLabelCaption.Value" Value="Finished On" />
+			<Item Name="LocalizableStrings.UsrTSSignedOnf572f7a4747448b481d7daa9fda23f78LabelCaption.Value" Value="Date of Contract" />
+			<Item Name="LocalizableStrings.UsrTSValidFrom2ec431c73fc2449c856f738cbef913e1LabelCaption.Value" Value="Started on" />
+		</Items>
+	</Group>
+</Resources>

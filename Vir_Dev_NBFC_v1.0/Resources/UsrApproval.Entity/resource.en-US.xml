@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Approval" />
+			<Item Name="Columns.UsrApplication.Caption" Value="Individual application" />
+			<Item Name="Columns.UsrEstablishBy.Caption" Value="Set by" />
+			<Item Name="Columns.UsrIsLocked.Caption" Value="Is Locked" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrSightedOn.Caption" Value="Approved" />
+			<Item Name="Columns.UsrStatus.Caption" Value="Status" />
+			<Item Name="Columns.UsrVisaType.Caption" Value="Approval type" />
+		</Items>
+	</Group>
+</Resources>

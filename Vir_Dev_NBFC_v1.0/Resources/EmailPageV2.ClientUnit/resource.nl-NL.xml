@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="nl-NL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Email edit page" />
+			<Item Name="LocalizableStrings.ConnectionWithProjectDetailCaption.Value" Value="Gekoppeld aan project" />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Feed" />
+			<Item Name="LocalizableStrings.FullProjectNameChangedWithoutProjectSelectionWarning.Value" Value="De waarde in het veld &quot;Project&quot; niet correct" />
+			<Item Name="LocalizableStrings.ProjectResourceElementMissing.Value" Value="Contact {0} wordt niet vermeld in de lijst van de middelen van het project. Wilt u een nieuw record toe te voegen aan de lijst van middelen?" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Volg de feed" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="U volgt nu feed: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Timeline" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Feed niet meer volgen" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="U bent gestopt met het volgen van de feed: {0}" />
+		</Items>
+	</Group>
+</Resources>

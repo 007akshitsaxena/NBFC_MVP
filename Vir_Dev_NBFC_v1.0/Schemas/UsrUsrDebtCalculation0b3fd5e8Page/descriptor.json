@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ac39f3d6-b60b-4cd1-bd57-39f37ec064fb",
+    "Name": "UsrUsrDebtCalculation0b3fd5e8Page",
+    "ModifiedOnUtc": "\/Date(1612513370000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Card schema: \"Debt Calculation\"",
+    "DependsOn": []
+  }
+}

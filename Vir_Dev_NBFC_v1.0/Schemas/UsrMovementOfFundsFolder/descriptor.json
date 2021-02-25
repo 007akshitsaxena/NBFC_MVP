@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "adeaa400-0b35-43a7-aebf-3ced913e9110",
+    "Name": "UsrMovementOfFundsFolder",
+    "ModifiedOnUtc": "\/Date(1612433591000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Movement of Funds folder",
+    "DependsOn": []
+  }
+}

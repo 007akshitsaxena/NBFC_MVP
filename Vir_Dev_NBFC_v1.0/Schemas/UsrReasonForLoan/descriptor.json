@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b478313b-203b-4e98-8f5b-80dba944db8b",
+    "Name": "UsrReasonForLoan",
+    "ModifiedOnUtc": "\/Date(1613106454000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Reason For Loan",
+    "DependsOn": []
+  }
+}

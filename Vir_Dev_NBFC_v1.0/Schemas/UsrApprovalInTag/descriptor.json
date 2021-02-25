@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "3088f26e-a687-425b-91d5-2aa52d470b0c",
+    "Name": "UsrApprovalInTag",
+    "ModifiedOnUtc": "\/Date(1612432220000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Approval section record tag",
+    "DependsOn": []
+  }
+}

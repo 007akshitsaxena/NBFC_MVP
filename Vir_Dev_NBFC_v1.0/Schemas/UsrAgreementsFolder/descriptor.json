@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "de832efd-ae04-4f0f-bdb0-0eaaaeb06569",
+    "Name": "UsrAgreementsFolder",
+    "ModifiedOnUtc": "\/Date(1612430681000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Agreements folder",
+    "DependsOn": []
+  }
+}

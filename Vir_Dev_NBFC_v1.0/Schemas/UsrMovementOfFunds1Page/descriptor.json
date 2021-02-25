@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ee751fa4-d823-44f6-bbeb-bb3a870c1a15",
+    "Name": "UsrMovementOfFunds1Page",
+    "ModifiedOnUtc": "\/Date(1613679244000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Movement of Funds\"",
+    "DependsOn": []
+  }
+}

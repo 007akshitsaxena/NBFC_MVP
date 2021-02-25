@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "b9e6700b-24f9-4051-9483-7569c9790584",
+    "Name": "UsrOperationsInTag",
+    "ModifiedOnUtc": "\/Date(1612434467000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Operations section record tag",
+    "DependsOn": []
+  }
+}

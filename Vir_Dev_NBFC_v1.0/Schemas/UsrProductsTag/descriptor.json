@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "cb7ed9ca-fef5-49b1-8699-fc69d225044c",
+    "Name": "UsrProductsTag",
+    "ModifiedOnUtc": "\/Date(1612499822000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Products section tag",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "570c3215-1501-40c9-989e-50090da5c328",
+    "Name": "UsrProcess_fc20dff",
+    "ModifiedOnUtc": "\/Date(1614065036000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Loan Disbursement  Process (Call 5)",
+    "DependsOn": []
+  }
+}

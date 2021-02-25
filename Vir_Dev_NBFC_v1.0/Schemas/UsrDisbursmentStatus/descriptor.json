@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e5073ba4-5b1e-4e89-867d-f9f2cef1017b",
+    "Name": "UsrDisbursmentStatus",
+    "ModifiedOnUtc": "\/Date(1613390025000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Disubursment Status",
+    "DependsOn": []
+  }
+}

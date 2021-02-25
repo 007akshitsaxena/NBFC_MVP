@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Application Gate" />
+			<Item Name="Columns.UsrAadhaarAddress.Caption" Value="Aadhaar Address" />
+			<Item Name="Columns.UsrAadhaarDOB.Caption" Value="Date of Birth on Aadhaar" />
+			<Item Name="Columns.UsrAadhaarFirstName.Caption" Value="First Name as per Aadhaar" />
+			<Item Name="Columns.UsrAadhaarLastName.Caption" Value="Last Name as per Aadhaar" />
+			<Item Name="Columns.UsrAadhaarMiddleName.Caption" Value="Middle Name as per Aadhaar" />
+			<Item Name="Columns.UsrAadhaarNumber.Caption" Value="Aadhaar Number" />
+			<Item Name="Columns.UsrAction.Caption" Value="Action" />
+			<Item Name="Columns.UsrActiveAgreement.Caption" Value="Active Agreement" />
+			<Item Name="Columns.UsrActiveApplication.Caption" Value="Active Application" />
+			<Item Name="Columns.UsrAgreement.Caption" Value="Agreement" />
+			<Item Name="Columns.UsrApplication.Caption" Value="Application" />
+			<Item Name="Columns.UsrBankAccountNumber.Caption" Value="Bank Account Number" />
+			<Item Name="Columns.UsrBankIFSCCode.Caption" Value="IFSC Code" />
+			<Item Name="Columns.UsrBankName.Caption" Value="Bank Name" />
+			<Item Name="Columns.UsrBirthDate.Caption" Value="Birth Date" />
+			<Item Name="Columns.UsrCoApplicantMobilePhone.Caption" Value="Co Applicant Mobile Phone" />
+			<Item Name="Columns.UsrCoApplicantName.Caption" Value="Co Applicant Name" />
+			<Item Name="Columns.UsrCoApplicantRelationship.Caption" Value="Co Applicant Relationship" />
+			<Item Name="Columns.UsrContact.Caption" Value="Contact" />
+			<Item Name="Columns.UsrCURBuilding.Caption" Value="Current Building" />
+			<Item Name="Columns.UsrCURCity.Caption" Value="Current City" />
+			<Item Name="Columns.UsrCURLandmark.Caption" Value="Current Landmark" />
+			<Item Name="Columns.UsrCURState.Caption" Value="Current State" />
+			<Item Name="Columns.UsrCURStreet.Caption" Value="Current Street" />
+			<Item Name="Columns.UsrCURZIP.Caption" Value="Current PIN" />
+			<Item Name="Columns.UsrCustomerType.Caption" Value="Customer Type" />
+			<Item Name="Columns.UsrEmail.Caption" Value="Email" />
+			<Item Name="Columns.UsrEmploymentType.Caption" Value="Employment Type" />
+			<Item Name="Columns.UsrFatherName.Caption" Value="Father's Name" />
+			<Item Name="Columns.UsrGender.Caption" Value="Gender" />
+			<Item Name="Columns.UsrGivenName.Caption" Value="Given Name" />
+			<Item Name="Columns.UsrIndustryType.Caption" Value="Industry Type" />
+			<Item Name="Columns.UsrIsAadhaarVerified.Caption" Value="Is Aadhaar Verified" />
+			<Item Name="Columns.UsrIsApplicationSubmitted.Caption" Value="Is Application Submitted" />
+			<Item Name="Columns.UsrIsCurrent.Caption" Value="Is Current" />
+			<Item Name="Columns.UsrIsLostCustomer.Caption" Value="Is Lost Customer" />
+			<Item Name="Columns.UsrLoanAmountRequested.Caption" Value="LoanAmountRequested" />
+			<Item Name="Columns.UsrLoanTermRequested.Caption" Value="LoanTermRequested" />
+			<Item Name="Columns.UsrMaritalStatus.Caption" Value="Marital Status " />
+			<Item Name="Columns.UsrMiddleName.Caption" Value="Middle Name" />
+			<Item Name="Columns.UsrMobileNumber.Caption" Value="Mobile Number" />
+			<Item Name="Columns.UsrMonthlyIncome.Caption" Value="Monthly Income" />
+			<Item Name="Columns.UsrName.Caption" Value="Number" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrNumberOfDependents.Caption" Value="Number Of Dependents" />
+			<Item Name="Columns.UsrPANBirthDate.Caption" Value="Date of Birth on PAN" />
+			<Item Name="Columns.UsrPANCheckStatus.Caption" Value="PAN Check Status" />
+			<Item Name="Columns.UsrPANFatherName.Caption" Value="Father's Name on PAN" />
+			<Item Name="Columns.UsrPANFirstName.Caption" Value="First Name as per PAN" />
+			<Item Name="Columns.UsrPANLastName.Caption" Value="Last Name as per PAN" />
+			<Item Name="Columns.UsrPANMiddleName.Caption" Value="Middle Name as per PAN" />
+			<Item Name="Columns.UsrPANNumber.Caption" Value="PAN Number" />
+			<Item Name="Columns.UsrProcessingResult.Caption" Value="Processing Result" />
+			<Item Name="Columns.UsrProduct.Caption" Value="Product " />
+			<Item Name="Columns.UsrReasonForLoan.Caption" Value="Reason For Loan" />
+			<Item Name="Columns.UsrRegZip.Caption" Value="ZIP Code" />
+			<Item Name="Columns.UsrSpouseName.Caption" Value="Spouse Name" />
+			<Item Name="Columns.UsrStateAsPerKYC.Caption" Value="State as per KYC" />
+			<Item Name="Columns.UsrSurname.Caption" Value="Surname" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Card schema: &quot;Specification of Products&quot;" />
+			<Item Name="LocalizableStrings.LOOKUPc8fc38236aad4aaa97990e3bd75f236dLabelCaption.Value" Value="Parameter" />
+		</Items>
+	</Group>
+</Resources>

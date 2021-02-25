@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "fd9d3c67-b823-423c-a8cd-c67a087ec252",
+    "Name": "UsrSchema0ea7e772Detail",
+    "ModifiedOnUtc": "\/Date(1614141224000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Payment Gate Records\"",
+    "DependsOn": []
+  }
+}

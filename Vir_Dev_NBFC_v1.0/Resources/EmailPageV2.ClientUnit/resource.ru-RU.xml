@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.AddEmailForUserQuestion.Value" Value="Для отправки email сообщений должны быть настроены параметры синхронизации с почтовым ящиком. Настроить сейчас?" />
+			<Item Name="LocalizableStrings.ConnectionWithProjectDetailCaption.Value" Value="Связь с проектом" />
+			<Item Name="LocalizableStrings.ESNTabCaption.Value" Value="Лента" />
+			<Item Name="LocalizableStrings.FullProjectNameChangedWithoutProjectSelectionWarning.Value" Value="Значение поля &quot;Проект&quot; некорректно" />
+			<Item Name="LocalizableStrings.ProjectResourceElementMissing.Value" Value="Контакт {0} не указан в листе ресурсов проекта. Добавить новую запись в лист ресурсов?" />
+			<Item Name="LocalizableStrings.SubscribeCaption.Value" Value="Подписаться на обновление ленты" />
+			<Item Name="LocalizableStrings.SubscribedInformationDialog.Value" Value="Вы подписаны на обновление ленты: {0}" />
+			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Хронология" />
+			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Отписаться от обновлений ленты" />
+			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="Вы отписаны от обновлений ленты: {0}" />
+		</Items>
+	</Group>
+</Resources>

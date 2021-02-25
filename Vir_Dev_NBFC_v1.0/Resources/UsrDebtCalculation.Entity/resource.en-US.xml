@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Debt Calculation" />
+			<Item Name="Columns.UsrDebtCalculationDate.Caption" Value="Calculation Date" />
+			<Item Name="Columns.UsrOperationCategory.Caption" Value="Operation Category" />
+			<Item Name="Columns.UsrTSAgreement.Caption" Value="Agreement" />
+			<Item Name="Columns.UsrTSSum.Caption" Value="Amount" />
+		</Items>
+	</Group>
+</Resources>

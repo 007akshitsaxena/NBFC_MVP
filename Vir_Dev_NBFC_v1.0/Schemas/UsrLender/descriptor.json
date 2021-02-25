@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2632d77a-1f81-436a-bd0c-1bb380aad080",
+    "Name": "UsrLender",
+    "ModifiedOnUtc": "\/Date(1613373468000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Lender ",
+    "DependsOn": []
+  }
+}

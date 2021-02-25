@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "426e066f-9f07-40b6-bc4b-737d06a7996f",
+    "Name": "UsrOperationsFolder",
+    "ModifiedOnUtc": "\/Date(1612434464000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Operations folder",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "75074811-861c-46db-bf6d-fb7386b06ee4",
+    "Name": "UsrDistributionMethod",
+    "ModifiedOnUtc": "\/Date(1612525318000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Distribution method",
+    "DependsOn": []
+  }
+}

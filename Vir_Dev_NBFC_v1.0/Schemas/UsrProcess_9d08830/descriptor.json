@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "4372b197-c18d-49e5-9d1d-b5853d709829",
+    "Name": "UsrProcess_9d08830",
+    "ModifiedOnUtc": "\/Date(1614048977000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculation of Master Fields on Contacts",
+    "DependsOn": []
+  }
+}

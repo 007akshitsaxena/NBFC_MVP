@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Parameters of Agreement" />
+			<Item Name="Columns.UsrAgreement.Caption" Value="Agreement" />
+			<Item Name="Columns.UsrParameter.Caption" Value="Parameter" />
+			<Item Name="Columns.UsrValueDecimal.Caption" Value="Value (Decimal)" />
+			<Item Name="Columns.UsrValueInteger.Caption" Value="Value (Integer)" />
+		</Items>
+	</Group>
+</Resources>

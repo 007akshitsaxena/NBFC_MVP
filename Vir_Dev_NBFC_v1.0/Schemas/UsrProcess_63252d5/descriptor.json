@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "21c06c84-f1f1-4a0e-ad1f-0eae6d46b916",
+    "Name": "UsrProcess_63252d5",
+    "ModifiedOnUtc": "\/Date(1614056905000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto Numbering of Application Gate",
+    "DependsOn": []
+  }
+}

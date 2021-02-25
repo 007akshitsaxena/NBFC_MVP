@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="es-ES">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Section schema: &quot;Leads&quot;" />
+			<Item Name="LocalizableStrings.ConfigureLeadTypes.Value" Value="Configurar las necesidades de cliente" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Caption" Value="DisqualificationButtonCaption" />
+			<Item Name="LocalizableStrings.DisqualificationButtonCaption.Value" Value="Descalificar" />
+			<Item Name="LocalizableStrings.GenerateReportWithoutFiltersConfirmationMessage.Value" Value="El informe se generará para todos los registros de la sección, sin filtros. ¿Desea continuar?" />
+			<Item Name="LocalizableStrings.LeadScoredBody.Value" Value="El puntaje de predicción es {0}" />
+			<Item Name="LocalizableStrings.LeadScoredTitle.Value" Value="Cliente potencial &quot;{0}&quot;" />
+			<Item Name="LocalizableStrings.QualifyStatusDistributionCaption.Value" Value="Distribuir" />
+			<Item Name="LocalizableStrings.QualifyStatusQualificationCaption.Value" Value="Calificar" />
+			<Item Name="LocalizableStrings.QualifyStatusTranslationForSaleCaption.Value" Value="Entregar a ventas" />
+			<Item Name="LocalizableStrings.ScoreLeadActionCaption.Value" Value="Evaluar puntaje predictivo" />
+			<Item Name="LocalizableStrings.ScoreLeadActionGeneralErrorMessage.Value" Value="La acción ha sido terminado con un error. Puede encontrar detalles en el registro de la aplicación" />
+			<Item Name="LocalizableStrings.ScoreLeadActionNoModelsErrorMessage.Value" Value="No hay modelos predictivos de puntuación de clientes potenciales disponibles" />
+		</Items>
+	</Group>
+</Resources>

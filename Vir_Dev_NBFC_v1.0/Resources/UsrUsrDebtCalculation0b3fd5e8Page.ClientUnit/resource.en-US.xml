@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Card schema: &quot;Debt Calculation&quot;" />
+			<Item Name="LocalizableStrings.LOOKUP0acb63eb433e46d7995e9667693eec66LabelCaption.Value" Value="Transaction Category" />
+		</Items>
+	</Group>
+</Resources>

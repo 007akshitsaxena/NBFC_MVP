@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "69760d50-af9c-47c5-b055-f53f34069529",
+    "Name": "UsrPaymentGateInFolder",
+    "ModifiedOnUtc": "\/Date(1614080397000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Payment Gate in Folder",
+    "DependsOn": []
+  }
+}

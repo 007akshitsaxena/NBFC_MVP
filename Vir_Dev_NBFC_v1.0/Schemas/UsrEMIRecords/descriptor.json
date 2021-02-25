@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "333aed0d-712c-4214-83bf-6a4c71384618",
+    "Name": "UsrEMIRecords",
+    "ModifiedOnUtc": "\/Date(1614157494000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "EMI Records",
+    "DependsOn": []
+  }
+}

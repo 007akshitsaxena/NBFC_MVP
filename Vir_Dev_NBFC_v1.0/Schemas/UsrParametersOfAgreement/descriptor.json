@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e288829f-1794-45a1-b3ae-bac4f5141191",
+    "Name": "UsrParametersOfAgreement",
+    "ModifiedOnUtc": "\/Date(1613554154000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Parameters of Agreement",
+    "DependsOn": []
+  }
+}

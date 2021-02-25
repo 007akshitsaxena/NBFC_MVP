@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "776a19bf-caac-4db3-8134-c83660c6849e",
+    "Name": "UsrUsrParametersOfAgreement13c4516cPage",
+    "ModifiedOnUtc": "\/Date(1613554151000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Card schema: \"Parameters of Agreement\"",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "4bbeda70-99d9-4d28-8365-531720b35ff8",
+    "Name": "UsrAgreementsInTag",
+    "ModifiedOnUtc": "\/Date(1612430685000)\/",
+    "Parent": {
+      "UId": "5894a2b0-51d5-419a-82bb-238674634270",
+      "Name": "BaseEntityInTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Agreements section record tag",
+    "DependsOn": []
+  }
+}

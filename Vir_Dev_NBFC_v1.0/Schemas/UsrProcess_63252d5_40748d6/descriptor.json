@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "bcdb1d1a-48f1-478d-8fb8-4f0f33faf8b6",
+    "Name": "UsrProcess_63252d5_40748d6",
+    "ModifiedOnUtc": "\/Date(1614055951000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto Numbering of Application",
+    "DependsOn": []
+  }
+}

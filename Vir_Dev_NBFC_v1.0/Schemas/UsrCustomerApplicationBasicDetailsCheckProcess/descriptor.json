@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6f79d7f0-e2ec-4925-a6f1-9d6f0a3aadf0",
+    "Name": "UsrCustomerApplicationBasicDetailsCheckProcess",
+    "ModifiedOnUtc": "\/Date(1613967141000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Customer Application Basic Details Check Process (Call 1)",
+    "DependsOn": []
+  }
+}

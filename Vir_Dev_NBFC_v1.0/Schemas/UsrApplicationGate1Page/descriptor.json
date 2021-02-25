@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "39110529-203e-4ef3-8b54-23958e5e171a",
+    "Name": "UsrApplicationGate1Page",
+    "ModifiedOnUtc": "\/Date(1614242326000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Application Gate\"",
+    "DependsOn": []
+  }
+}

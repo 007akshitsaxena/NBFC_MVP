@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Applications&quot;" />
+			<Item Name="LocalizableStrings.FilesDetailCaptionOnPage.Value" Value="Файлы и ссылки" />
+			<Item Name="LocalizableStrings.NotesAndFilesTabCaption.Value" Value="Файлы и примечания" />
+		</Items>
+	</Group>
+</Resources>

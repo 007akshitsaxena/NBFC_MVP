@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "4af66483-d0cb-4044-a08d-ef03e412ca32",
+    "Name": "UsrMaritalStatus",
+    "ModifiedOnUtc": "\/Date(1612857583000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Marital Status ",
+    "DependsOn": []
+  }
+}

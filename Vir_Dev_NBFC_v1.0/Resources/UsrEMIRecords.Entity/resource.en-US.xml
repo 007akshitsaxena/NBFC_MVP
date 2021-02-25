@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="EMI Records" />
+			<Item Name="Columns.UsrAgreement.Caption" Value="Agreement" />
+			<Item Name="Columns.UsrAmount.Caption" Value="Amount to be paid" />
+			<Item Name="Columns.UsrBalancedAmount.Caption" Value="Balance Amount" />
+			<Item Name="Columns.UsrDueDate.Caption" Value="DueDate" />
+			<Item Name="Columns.UsrEMIType.Caption" Value="EMI Type" />
+			<Item Name="Columns.UsrIsRepaid.Caption" Value="Is Repaid" />
+			<Item Name="Columns.UsrMonthCount.Caption" Value="Month Count" />
+			<Item Name="Columns.UsrOverpaymentAmount.Caption" Value="Overpayment Amount" />
+			<Item Name="Columns.UsrRepaymentAmount.Caption" Value="Repayment Amount" />
+			<Item Name="Columns.UsrStartDate.Caption" Value="Start Date" />
+		</Items>
+	</Group>
+</Resources>

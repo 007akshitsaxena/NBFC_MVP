@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Parameter with Individual Contract" />
+			<Item Name="Columns.UsrFloatValue.Caption" Value="Value (decimal)" />
+			<Item Name="Columns.UsrIntValue.Caption" Value="Value (integer)" />
+			<Item Name="Columns.UsrStringValue.Caption" Value="Value" />
+			<Item Name="Columns.UsrTSAgreement.Caption" Value="Individual contract" />
+			<Item Name="Columns.UsrTSDueDate.Caption" Value="Validity end date" />
+			<Item Name="Columns.UsrTSParameterSettingReason.Caption" Value="Reason for setting up a parameter" />
+			<Item Name="Columns.UsrTSStartDate.Caption" Value="Validity start date" />
+		</Items>
+	</Group>
+</Resources>

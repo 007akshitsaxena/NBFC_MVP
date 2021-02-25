@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "d71977c3-2bde-4877-bb8c-a095962fbc80",
+    "Name": "UsrSchemae038929eDetail",
+    "ModifiedOnUtc": "\/Date(1613128441000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Applications on Contact\"",
+    "DependsOn": []
+  }
+}

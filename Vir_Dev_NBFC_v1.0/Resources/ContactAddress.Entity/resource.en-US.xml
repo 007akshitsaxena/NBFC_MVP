@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.UsrAddressLine1.Caption" Value="Address Line 1" />
+			<Item Name="Columns.UsrAddressLine2.Caption" Value="Address Line 2" />
+			<Item Name="Columns.UsrIsCurrent.Caption" Value="IsCurrent" />
+			<Item Name="Columns.UsrLandmark.Caption" Value="Landmark" />
+			<Item Name="Columns.UsrPIN.Caption" Value="PIN" />
+		</Items>
+	</Group>
+</Resources>

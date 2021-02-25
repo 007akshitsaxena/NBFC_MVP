@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "fb31cb4e-95b5-46c4-98bf-8d7241055154",
+    "Name": "LeadSectionV2",
+    "ModifiedOnUtc": "\/Date(1614233896000)\/",
+    "Parent": {
+      "UId": "11939bd1-a5b4-4f3f-9f89-3bd0baad06e9",
+      "Name": "LeadSectionV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Leads\"",
+    "DependsOn": []
+  }
+}

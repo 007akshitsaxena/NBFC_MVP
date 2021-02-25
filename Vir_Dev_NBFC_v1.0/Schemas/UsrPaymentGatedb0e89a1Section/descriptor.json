@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "cd6842d2-e5b7-4b53-8fd9-c13265328ce4",
+    "Name": "UsrPaymentGatedb0e89a1Section",
+    "ModifiedOnUtc": "\/Date(1614080383000)\/",
+    "Parent": {
+      "UId": "7912fb69-4fee-429f-8b23-93943c35d66d",
+      "Name": "BaseSectionV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Section schema: \"Payment Gate\"",
+    "DependsOn": []
+  }
+}

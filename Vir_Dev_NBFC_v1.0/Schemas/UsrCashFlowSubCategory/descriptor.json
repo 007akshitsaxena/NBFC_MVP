@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7b8f966f-488e-4e09-80c0-ee58a216c8ac",
+    "Name": "UsrCashFlowSubCategory",
+    "ModifiedOnUtc": "\/Date(1613390023000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Cashflow Sub Category",
+    "DependsOn": []
+  }
+}

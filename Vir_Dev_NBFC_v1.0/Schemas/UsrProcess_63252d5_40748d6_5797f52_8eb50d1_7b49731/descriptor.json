@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "861becfd-052c-43d3-a7ff-96c6314ef696",
+    "Name": "UsrProcess_63252d5_40748d6_5797f52_8eb50d1_7b49731",
+    "ModifiedOnUtc": "\/Date(1614055751000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto Numbering of Agreements",
+    "DependsOn": []
+  }
+}

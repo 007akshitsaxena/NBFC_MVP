@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "9d2ec22b-7897-4750-9dfb-32b3e77ea90c",
+    "Name": "UsrDebtCalculation",
+    "ModifiedOnUtc": "\/Date(1612513372000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Debt Calculation",
+    "DependsOn": []
+  }
+}

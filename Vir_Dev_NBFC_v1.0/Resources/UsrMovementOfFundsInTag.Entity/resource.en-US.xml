@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Movement of Funds section record tag" />
+			<Item Name="Columns.Entity.Caption" Value="Movement of Funds" />
+			<Item Name="Columns.Tag.Caption" Value="Movement of Funds section tag" />
+		</Items>
+	</Group>
+</Resources>

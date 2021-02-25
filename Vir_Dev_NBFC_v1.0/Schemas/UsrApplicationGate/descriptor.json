@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2a46a7de-d4d0-4625-af77-ccd009f1cf0d",
+    "Name": "UsrApplicationGate",
+    "ModifiedOnUtc": "\/Date(1614241971000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Application Gate",
+    "DependsOn": []
+  }
+}

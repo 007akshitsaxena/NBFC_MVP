@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "7881be6a-4e1e-4e8a-b7b5-779ec212743f",
+    "Name": "EmailPageV2",
+    "ModifiedOnUtc": "\/Date(1614228711000)\/",
+    "Parent": {
+      "UId": "7772f09e-7c12-4e26-9d87-040ffc7d648c",
+      "Name": "EmailPageV2"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Email edit page",
+    "DependsOn": []
+  }
+}

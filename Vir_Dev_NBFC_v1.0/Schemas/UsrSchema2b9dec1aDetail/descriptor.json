@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "bad473ab-0aeb-4158-baf6-f2669d425d7b",
+    "Name": "UsrSchema2b9dec1aDetail",
+    "ModifiedOnUtc": "\/Date(1613128492000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Agreements on Contact\"",
+    "DependsOn": []
+  }
+}

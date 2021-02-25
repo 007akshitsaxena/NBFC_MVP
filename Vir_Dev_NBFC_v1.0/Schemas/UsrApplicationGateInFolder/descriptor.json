@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "cef6012c-378c-46a9-a43d-c1b299197422",
+    "Name": "UsrApplicationGateInFolder",
+    "ModifiedOnUtc": "\/Date(1612421563000)\/",
+    "Parent": {
+      "UId": "4f63bafb-e9e7-4082-b92e-66b97c14017c",
+      "Name": "BaseItemInFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Application Gate in Folder",
+    "DependsOn": []
+  }
+}
