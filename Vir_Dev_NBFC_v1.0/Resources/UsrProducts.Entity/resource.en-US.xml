@@ -15,13 +15,16 @@
 			<Item Name="Columns.UsrLender.Caption" Value="Lender " />
 			<Item Name="Columns.UsrMaxAge.Caption" Value="Max Age" />
 			<Item Name="Columns.UsrMaxLoanAmount.Caption" Value="Max Loan Amount" />
-			<Item Name="Columns.UsrMaxLoanTerm.Caption" Value="Max Loan Term" />
+			<Item Name="Columns.UsrMaxLoanTermInDays.Caption" Value="Max Loan Term (In Days)" />
+			<Item Name="Columns.UsrMaxLoanTermInMonths.Caption" Value="Max Loan Term (In Months)" />
 			<Item Name="Columns.UsrMinAge.Caption" Value="Min Age" />
 			<Item Name="Columns.UsrMinAndMaxAgeCheck.Caption" Value="Min. and Max. Age Check" />
 			<Item Name="Columns.UsrMinAndMaxRequestedLoanAmountCheck.Caption" Value="Min. and Max. Requested Loan Amount Check" />
-			<Item Name="Columns.UsrMinAndMaxRequestedLoanTermCheck.Caption" Value="Min. and Max. Requested Loan Term Check" />
+			<Item Name="Columns.UsrMinAndMaxShortTermLoanRequestedCheck.Caption" Value="Min. and Max. Short Term Loan Requested Check " />
 			<Item Name="Columns.UsrMinLoanAmount.Caption" Value="Min Loan Amount" />
-			<Item Name="Columns.UsrMinLoanTerm.Caption" Value="Min Loan Term" />
+			<Item Name="Columns.UsrMinLoanTermInDays.Caption" Value="Min Loan Term (In Days)" />
+			<Item Name="Columns.UsrMinLoanTermInMonths.Caption" Value="Min Loan Term (In Months)" />
+			<Item Name="Columns.UsrMinMaxLongTermLoanRequested.Caption" Value="Min &amp; Max Long Term Loan Requested " />
 			<Item Name="Columns.UsrMobileNumberOnActiveAppCheck.Caption" Value="Mobile Number on Active Applications Check" />
 			<Item Name="Columns.UsrMonthlyIncomeCheck.Caption" Value="Monthly Income Check" />
 			<Item Name="Columns.UsrNewDiscountFactorCheck.Caption" Value="New Discount Factor Check" />

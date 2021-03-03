@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "00d82901-8f53-42ff-8f03-e62dd2178552",
     "Name": "UsrProcess_40f61d5",
-    "ModifiedOnUtc": "\/Date(1614157798000)\/",
+    "ModifiedOnUtc": "\/Date(1614341433000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "EMI Scheduling Process",
-    "DependsOn": []
+    "Caption": "EMI Scheduling Process"
   }
 }

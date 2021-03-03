@@ -22,6 +22,12 @@
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Caption" Value="Approval Logs modification  - Copy" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.RecordColumnValues.Caption" Value="Set column values" />
 			<Item Name="BaseElements.ChangeDataUserTask11.Caption" Value="Approval Logs modification " />
 			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
 			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.EntitySchemaUId.Caption" Value="Object" />
@@ -88,14 +94,22 @@
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Caption" Value="Approval Logs modification  - Copy" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.EntitySchemaUId.Caption" Value="Object" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.IsMatchConditions.Caption" Value="If object meets the following conditions" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.RecordColumnValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Request for Long Term Verification" />
 			<Item Name="BaseElements.ConditionalSequenceFlow10.Caption" Value="Last Loan Closure Verification" />
 			<Item Name="BaseElements.ConditionalSequenceFlow11.Caption" Value="If Min. and Max. Age Check = true" />
 			<Item Name="BaseElements.ConditionalSequenceFlow12.Caption" Value="Age Verification" />
 			<Item Name="BaseElements.ConditionalSequenceFlow13.Caption" Value="If Min. and Max. Requested Loan Amount Check = true" />
 			<Item Name="BaseElements.ConditionalSequenceFlow14.Caption" Value="Requested Loan Amount Verification" />
-			<Item Name="BaseElements.ConditionalSequenceFlow16.Caption" Value="If Min. and Max. Requested Loan Term Check = true" />
+			<Item Name="BaseElements.ConditionalSequenceFlow16.Caption" Value="If Min. and Max. Short Term Loan Requested Check = true" />
 			<Item Name="BaseElements.ConditionalSequenceFlow17.Caption" Value="Requested Loan Term Verification" />
-			<Item Name="BaseElements.ConditionalSequenceFlow19.Caption" Value="If Monthly Income Check = true" />
+			<Item Name="BaseElements.ConditionalSequenceFlow19.Caption" Value="If Monthly Income Check = true for short term loan" />
+			<Item Name="BaseElements.ConditionalSequenceFlow2.Caption" Value="If Min and Max Long Term Loan Requested Check = True" />
 			<Item Name="BaseElements.ConditionalSequenceFlow20.Caption" Value="Monthly Income Verification" />
 			<Item Name="BaseElements.ConditionalSequenceFlow23.Caption" Value="If Mobile Number on Active Applications Check = true" />
 			<Item Name="BaseElements.ConditionalSequenceFlow28.Caption" Value="If No. of records are greater than 0" />
@@ -107,13 +121,17 @@
 			<Item Name="BaseElements.ConditionalSequenceFlow40.Caption" Value="Reason for Loan Verification" />
 			<Item Name="BaseElements.ConditionalSequenceFlow43.Caption" Value="If Industry Type Check = true" />
 			<Item Name="BaseElements.ConditionalSequenceFlow46.Caption" Value="If Last Loan Closure Check = true" />
+			<Item Name="BaseElements.ConditionalSequenceFlow5.Caption" Value="If Monthly Income Check for Long Term Loan" />
+			<Item Name="BaseElements.ConditionalSequenceFlow6.Caption" Value="Monthly Income Verification" />
 			<Item Name="BaseElements.ConditionalSequenceFlow8.Caption" Value="Industry Type Verification" />
 			<Item Name="BaseElements.FormulaTask1.Caption" Value="Set Approval Log - Id" />
 			<Item Name="BaseElements.FormulaTask10.Caption" Value="Set Application Rejection Reason" />
 			<Item Name="BaseElements.FormulaTask11.Caption" Value="Set Application Rejection Reason" />
 			<Item Name="BaseElements.FormulaTask12.Caption" Value="Set Application Rejection Reason" />
+			<Item Name="BaseElements.FormulaTask13.Caption" Value="Set Application Rejection Reason - Copy" />
 			<Item Name="BaseElements.FormulaTask2.Caption" Value="Set Application Rejection Reason" />
 			<Item Name="BaseElements.FormulaTask3.Caption" Value="Set Application Rejection Reason" />
+			<Item Name="BaseElements.FormulaTask4.Caption" Value="Set Application Rejection Reason - Copy" />
 			<Item Name="BaseElements.FormulaTask5.Caption" Value="Set Application Rejection Reason" />
 			<Item Name="BaseElements.FormulaTask6.Caption" Value="Set Application Rejection Reason" />
 			<Item Name="BaseElements.FormulaTask7.Caption" Value="Set Application Rejection Reason" />

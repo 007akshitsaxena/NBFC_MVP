@@ -4,7 +4,32 @@ define("UsrUsrEMIRecords07314a9fPage", [], function() {
 		attributes: {},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
 		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+			"UsrOldAmount": {
+				"096b0235-69de-4cd7-8916-30bb236316bd": {
+					"uId": "096b0235-69de-4cd7-8916-30bb236316bd",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIsLatePaymentFeeApplied"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			}
+		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
@@ -41,6 +66,40 @@ define("UsrUsrEMIRecords07314a9fPage", [], function() {
 				"parentName": "ProfileContainer",
 				"propertyName": "items",
 				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "UsrIsLatePaymentFeeApplied4f08a0a7-7ded-4e20-9f50-c7c0db0f9eb2",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 2,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrIsLatePaymentFeeApplied"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "UsrLatePaymentFeeCheckac6fea14-7c9d-472d-b192-31f697982063",
+				"values": {
+					"layout": {
+						"colSpan": 24,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "ProfileContainer"
+					},
+					"bindTo": "UsrLatePaymentFeeCheck"
+				},
+				"parentName": "ProfileContainer",
+				"propertyName": "items",
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -126,6 +185,42 @@ define("UsrUsrEMIRecords07314a9fPage", [], function() {
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP53e78b1c-688c-4baa-b700-8f7452813c4a",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 2,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrPaymentGate",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "UsrOldAmount3e7ca2fa-a317-4c0b-89b4-46c305f44963",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 3,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrOldAmount"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 6
 			}
 		]/**SCHEMA_DIFF*/
 	};

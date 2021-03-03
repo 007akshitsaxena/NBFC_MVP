@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "541cc370-f345-490b-a8d0-e8b104975ad5",
     "Name": "UsrProcess_59083ec",
-    "ModifiedOnUtc": "\/Date(1614238421000)\/",
+    "ModifiedOnUtc": "\/Date(1614315653000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "E-KYC Verification Process (Call 4)",
-    "DependsOn": []
+    "Caption": "E-KYC Verification Process (Call 4)"
   }
 }

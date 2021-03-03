@@ -23,11 +23,13 @@
 			<Item Name="LocalizableStrings.Tabd61e0f92TabLabelGroup4c7d43faGroupCaption.Value" Value="Applications Information" />
 			<Item Name="LocalizableStrings.Tabd61e0f92TabLabelGroup7a74ebf0GroupCaption.Value" Value="Application Information" />
 			<Item Name="LocalizableStrings.Tabd61e0f92TabLabelTabCaption.Value" Value="Applications " />
+			<Item Name="LocalizableStrings.Tabfdedce4eTabLabelTabCaption.Value" Value="Payment History" />
 			<Item Name="LocalizableStrings.TimelineTabCaption.Value" Value="Timeline" />
 			<Item Name="LocalizableStrings.UnsubscribeCaption.Value" Value="Unfollow the feed" />
 			<Item Name="LocalizableStrings.UnsubscribedInformationDialog.Value" Value="You have stopped following feed: {0}" />
 			<Item Name="LocalizableStrings.UsrSchema2b9dec1aDetailbf81f13dDetailCaptionOnPage.Value" Value="Agreements " />
 			<Item Name="LocalizableStrings.UsrSchemae038929eDetail2e832a5dDetailCaptionOnPage.Value" Value="Applications " />
+			<Item Name="LocalizableStrings.UsrSchemae65d7c4aDetail929862d1DetailCaptionOnPage.Value" Value="Payment History" />
 		</Items>
 	</Group>
 </Resources>

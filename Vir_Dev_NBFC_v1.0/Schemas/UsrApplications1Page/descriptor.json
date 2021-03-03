@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "90830c0f-68c7-4c96-93e9-6080f7ed7fde",
     "Name": "UsrApplications1Page",
-    "ModifiedOnUtc": "\/Date(1614229684000)\/",
+    "ModifiedOnUtc": "\/Date(1614341890000)\/",
     "Parent": {
       "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
       "Name": "BaseModulePageV2"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Edit page: \"Applications\"",
-    "DependsOn": []
+    "Caption": "Edit page: \"Applications\""
   }
 }

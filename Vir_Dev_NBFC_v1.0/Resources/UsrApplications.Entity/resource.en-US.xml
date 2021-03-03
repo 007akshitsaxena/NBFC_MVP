@@ -9,7 +9,8 @@
 			<Item Name="Columns.UsrApplicationStatus.Caption" Value="Application Status" />
 			<Item Name="Columns.UsrApprovedAmount.Caption" Value="Approved Amount" />
 			<Item Name="Columns.UsrApprovedProduct.Caption" Value="Approved Product" />
-			<Item Name="Columns.UsrApprovedTerm.Caption" Value="Approved Term" />
+			<Item Name="Columns.UsrApprovedTermInDays.Caption" Value="Approved Term (In Days)" />
+			<Item Name="Columns.UsrApprovedTermInMonths.Caption" Value="Approved Term (In Months)" />
 			<Item Name="Columns.UsrBankIFSCCode.Caption" Value="IFSC Code" />
 			<Item Name="Columns.UsrBankName.Caption" Value="Bank Name" />
 			<Item Name="Columns.UsrCoApplicantName.Caption" Value="Co Applicant Name" />
@@ -29,7 +30,8 @@
 			<Item Name="Columns.UsrReasonForLoan.Caption" Value="Reason For Loan" />
 			<Item Name="Columns.UsrRequestedAmount.Caption" Value="Requested Amount" />
 			<Item Name="Columns.UsrRequestedProduct.Caption" Value="Requested Product" />
-			<Item Name="Columns.UsrRequestedTerm.Caption" Value="Requested Term" />
+			<Item Name="Columns.UsrRequestedTermInDays.Caption" Value="Requested Term (In Days)" />
+			<Item Name="Columns.UsrRequestedTermInMonths.Caption" Value="Requested Term (In Months)" />
 			<Item Name="Columns.UsrSalesChannel.Caption" Value="Sales Channel" />
 			<Item Name="Columns.UsrTSApplicationGateId.Caption" Value="Application Gate" />
 		</Items>

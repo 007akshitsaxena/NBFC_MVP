@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "7c7e0c2c-ffa5-43ee-a8d0-6c4106102749",
     "Name": "UsrApplicationCreationProcess",
-    "ModifiedOnUtc": "\/Date(1614237910000)\/",
+    "ModifiedOnUtc": "\/Date(1614333645000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Application Creation Process (New & Repeat) Customer",
-    "DependsOn": []
+    "Caption": "Application Creation Process (New & Repeat) Customer"
   }
 }

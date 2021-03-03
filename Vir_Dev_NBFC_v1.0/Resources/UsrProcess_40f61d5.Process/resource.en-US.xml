@@ -135,7 +135,7 @@
 			<Item Name="Parameters.Counter.Caption" Value="Counter" />
 			<Item Name="Parameters.Counter.DisplayValue" Value="0" />
 			<Item Name="Parameters.EMIAmountPerMonth.Caption" Value="EMI Amount Per month" />
-			<Item Name="Parameters.EMIAmountPerMonth.DisplayValue" Value="([#Read Approved Amount.First item of resulting collection.Approved Amount#]/[#Read Agreement.First item of resulting collection.Approved Tenure in Months#]) + (([#Read Approved Amount.First item of resulting collection.Approved Amount#] * [#EMI Interest #])/100)" />
+			<Item Name="Parameters.EMIAmountPerMonth.DisplayValue" Value="([#Read Approved Amount.First item of resulting collection.Approved Amount#]/[#Read Agreement.First item of resulting collection.Approved Tenure (In Months)#]) + (([#Read Approved Amount.First item of resulting collection.Approved Amount#] * [#EMI Interest #])/100)" />
 			<Item Name="Parameters.EMIInterest.Caption" Value="EMI Interest " />
 			<Item Name="Parameters.EMIType.Caption" Value="EMI Type" />
 		</Items>

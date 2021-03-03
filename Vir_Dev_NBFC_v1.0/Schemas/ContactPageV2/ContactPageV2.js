@@ -27,6 +27,14 @@ define("ContactPageV2", [], function() {
 					"detailColumn": "Contact",
 					"masterColumn": "Id"
 				}
+			},
+			"UsrSchemae65d7c4aDetail929862d1": {
+				"schemaName": "UsrSchemae65d7c4aDetail",
+				"entitySchemaName": "UsrPaymentGate",
+				"filter": {
+					"detailColumn": "UsrContact",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
@@ -888,6 +896,31 @@ define("ContactPageV2", [], function() {
 				"index": 6
 			},
 			{
+				"operation": "insert",
+				"name": "Tabfdedce4eTabLabel",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tabfdedce4eTabLabelTabCaption"
+					},
+					"items": [],
+					"order": 5
+				},
+				"parentName": "Tabs",
+				"propertyName": "tabs",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSchemae65d7c4aDetail929862d1",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tabfdedce4eTabLabel",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
 				"operation": "remove",
 				"name": "JobTitleProfile"
 			},
@@ -977,11 +1010,11 @@ define("ContactPageV2", [], function() {
 			},
 			{
 				"operation": "remove",
-				"name": "Opportunities"
+				"name": "Invoice"
 			},
 			{
 				"operation": "remove",
-				"name": "Invoice"
+				"name": "Order"
 			},
 			{
 				"operation": "remove",
@@ -993,7 +1026,7 @@ define("ContactPageV2", [], function() {
 			},
 			{
 				"operation": "remove",
-				"name": "Order"
+				"name": "Opportunities"
 			},
 			{
 				"operation": "remove",

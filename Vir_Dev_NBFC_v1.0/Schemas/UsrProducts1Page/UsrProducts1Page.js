@@ -1187,6 +1187,98 @@ define("UsrProducts1Page", [], function() {
 						}
 					]
 				}
+			},
+			"UsrMinLoanTermInMonths": {
+				"4b571c24-934d-418c-86ef-3f1366500574": {
+					"uId": "4b571c24-934d-418c-86ef-3f1366500574",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrMinMaxLongTermLoanRequested"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"8dbf5f01-bb46-48f5-80a6-319e3ca87228": {
+					"uId": "8dbf5f01-bb46-48f5-80a6-319e3ca87228",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 2,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrMinMaxLongTermLoanRequested"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"UsrMaxLoanTermInMonths": {
+				"602cd8b0-6620-48dd-8783-eb72d32e33b4": {
+					"uId": "602cd8b0-6620-48dd-8783-eb72d32e33b4",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrMinMaxLongTermLoanRequested"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"fd82ccfa-d9f6-4043-a861-4b0ccbdc8b13": {
+					"uId": "fd82ccfa-d9f6-4043-a861-4b0ccbdc8b13",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 2,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrMinMaxLongTermLoanRequested"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
@@ -1562,7 +1654,7 @@ define("UsrProducts1Page", [], function() {
 						"row": 5,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
-					"bindTo": "UsrMinLoanTerm",
+					"bindTo": "UsrMinLoanTermInDays",
 					"enabled": true
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
@@ -1580,7 +1672,7 @@ define("UsrProducts1Page", [], function() {
 						"row": 5,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
-					"bindTo": "UsrMaxLoanTerm",
+					"bindTo": "UsrMaxLoanTermInDays",
 					"enabled": true
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
@@ -1598,12 +1690,66 @@ define("UsrProducts1Page", [], function() {
 						"row": 5,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
-					"bindTo": "UsrMinAndMaxRequestedLoanTermCheck",
+					"bindTo": "UsrMinAndMaxShortTermLoanRequestedCheck",
 					"enabled": true
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
 				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGER14573a5c-1ca7-44f6-a4f1-65925f8df586",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 7,
+						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
+					},
+					"bindTo": "UsrMinLoanTermInMonths",
+					"enabled": true
+				},
+				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
+				"propertyName": "items",
+				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGERb7c2d612-bd7d-482a-ac78-daed646da3da",
+				"values": {
+					"layout": {
+						"colSpan": 6,
+						"rowSpan": 1,
+						"column": 18,
+						"row": 7,
+						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
+					},
+					"bindTo": "UsrMaxLoanTermInMonths",
+					"enabled": true
+				},
+				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
+				"name": "BOOLEANf3ca7e49-efdd-4491-b30e-5150863ff2b6",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 7,
+						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
+					},
+					"bindTo": "UsrMinMaxLongTermLoanRequested",
+					"enabled": true
+				},
+				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
+				"propertyName": "items",
+				"index": 11
 			},
 			{
 				"operation": "insert",
@@ -1613,7 +1759,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 7,
+						"row": 9,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrMonthlyIncomeCheck",
@@ -1621,7 +1767,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 9
+				"index": 12
 			},
 			{
 				"operation": "insert",
@@ -1631,7 +1777,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 7,
+						"row": 9,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrRequiredMonthlyIncome",
@@ -1639,7 +1785,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 10
+				"index": 13
 			},
 			{
 				"operation": "insert",
@@ -1649,7 +1795,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 9,
+						"row": 11,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrMobileNumberOnActiveAppCheck",
@@ -1657,7 +1803,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 11
+				"index": 14
 			},
 			{
 				"operation": "insert",
@@ -1667,7 +1813,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 9,
+						"row": 11,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrEmailOnActiveAppCheck",
@@ -1675,7 +1821,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 12
+				"index": 15
 			},
 			{
 				"operation": "insert",
@@ -1685,7 +1831,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 11,
+						"row": 13,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrLast30DaysRejectedApplicationsCheck",
@@ -1693,7 +1839,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 13
+				"index": 16
 			},
 			{
 				"operation": "insert",
@@ -1703,7 +1849,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 11,
+						"row": 13,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrLast30DaysRejectedApplications",
@@ -1711,7 +1857,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 14
+				"index": 17
 			},
 			{
 				"operation": "insert",
@@ -1721,7 +1867,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 13,
+						"row": 15,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrReasonForLoanCheck",
@@ -1729,7 +1875,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 15
+				"index": 18
 			},
 			{
 				"operation": "insert",
@@ -1739,7 +1885,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 13,
+						"row": 15,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrIndustryTypeCheck",
@@ -1747,7 +1893,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 16
+				"index": 19
 			},
 			{
 				"operation": "insert",
@@ -1757,7 +1903,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 15,
+						"row": 17,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrLastLoanClosureCheck",
@@ -1765,7 +1911,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 17
+				"index": 20
 			},
 			{
 				"operation": "insert",
@@ -1775,7 +1921,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 15,
+						"row": 17,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrLast6MonthsNumberOfDPD",
@@ -1783,7 +1929,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 18
+				"index": 21
 			},
 			{
 				"operation": "insert",
@@ -1793,7 +1939,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 17,
+						"row": 19,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrNewLoanEligibilityCheck",
@@ -1801,7 +1947,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 19
+				"index": 22
 			},
 			{
 				"operation": "insert",
@@ -1811,7 +1957,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 17,
+						"row": 19,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrNewLoanAmountEligibility",
@@ -1819,7 +1965,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 20
+				"index": 23
 			},
 			{
 				"operation": "insert",
@@ -1829,7 +1975,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 0,
-						"row": 19,
+						"row": 21,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrRepeatLoanEligibilityCheck",
@@ -1837,7 +1983,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 21
+				"index": 24
 			},
 			{
 				"operation": "insert",
@@ -1847,7 +1993,7 @@ define("UsrProducts1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 19,
+						"row": 21,
 						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
 					},
 					"bindTo": "UsrRepeatLoanAmountEligibility",
@@ -1855,79 +2001,7 @@ define("UsrProducts1Page", [], function() {
 				},
 				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
 				"propertyName": "items",
-				"index": 22
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN24d8e7b5-0315-4a2b-a1f0-2dbbd3c2cc19",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 21,
-						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
-					},
-					"bindTo": "UsrNewDiscountFactorCheck",
-					"enabled": true
-				},
-				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
-				"propertyName": "items",
-				"index": 23
-			},
-			{
-				"operation": "insert",
-				"name": "INTEGER54954099-6808-4e7e-9be8-f694eef78dfd",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 21,
-						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
-					},
-					"bindTo": "UsrNewLoanDiscount",
-					"enabled": true
-				},
-				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
-				"propertyName": "items",
-				"index": 24
-			},
-			{
-				"operation": "insert",
-				"name": "BOOLEAN15b2a526-327c-4e63-b252-159c4ecaa627",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 23,
-						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
-					},
-					"bindTo": "UsrRepeatDiscountFactorCheck",
-					"enabled": true
-				},
-				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
-				"propertyName": "items",
 				"index": 25
-			},
-			{
-				"operation": "insert",
-				"name": "INTEGER9fdbcf01-7c6a-4003-8685-cb64d40795e7",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 23,
-						"layoutName": "Tabbc3eefccTabLabelGridLayouteed84ae0"
-					},
-					"bindTo": "UsrRepeatLoanDiscount",
-					"enabled": true
-				},
-				"parentName": "Tabbc3eefccTabLabelGridLayouteed84ae0",
-				"propertyName": "items",
-				"index": 26
 			},
 			{
 				"operation": "insert",

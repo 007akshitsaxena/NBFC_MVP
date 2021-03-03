@@ -41,7 +41,6 @@
 			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask4.Parameters.RecordColumnValues.Caption" Value="Set column values" />
 			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="Father's Name with PAN" />
-			<Item Name="BaseElements.ConditionalSequenceFlow12.Caption" Value="Check Full Name With ESign Name" />
 			<Item Name="BaseElements.ConditionalSequenceFlow3.Caption" Value="Check BirthDate on Aadhar" />
 			<Item Name="BaseElements.ConditionalSequenceFlow5.Caption" Value="Check Birth Date on PAN" />
 			<Item Name="BaseElements.ConditionalSequenceFlow6.Caption" Value="Check Full Name on Aadhaar" />
@@ -50,7 +49,6 @@
 			<Item Name="BaseElements.FormulaTask2.Caption" Value="Set Full Name" />
 			<Item Name="BaseElements.FormulaTask3.Caption" Value="Set Full Name On PAN" />
 			<Item Name="BaseElements.FormulaTask4.Caption" Value="Set Full Name On Aadhaar" />
-			<Item Name="BaseElements.FormulaTask5.Caption" Value="Set Full Name On ESign" />
 			<Item Name="BaseElements.ReadDataUserTask4.Caption" Value="Read Data for KYC from Application Gate " />
 			<Item Name="BaseElements.ReadDataUserTask4.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask4.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
@@ -92,7 +90,6 @@
 			<Item Name="Parameters.ContactID.Caption" Value="Contact Id" />
 			<Item Name="Parameters.FullName.Caption" Value="Full Name" />
 			<Item Name="Parameters.FullNameOnAadhaar.Caption" Value="Full Name on Aadhaar" />
-			<Item Name="Parameters.FullNameOnEsign.Caption" Value="Full Name on ESign" />
 			<Item Name="Parameters.FullNameOnPAN.Caption" Value="Full Name on PAN" />
 		</Items>
 	</Group>

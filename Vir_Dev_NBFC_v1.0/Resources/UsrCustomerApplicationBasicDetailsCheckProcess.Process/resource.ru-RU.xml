@@ -19,6 +19,11 @@
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask1.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.EntitySchemaUId.Caption" Value="Объект" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask10.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
 			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
 			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.EntitySchemaUId.Caption" Value="Объект" />
 			<Item Name="BaseElements.ChangeDataUserTask11.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
@@ -74,6 +79,11 @@
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.IsMatchConditions.DisplayValue" Value="true" />
 			<Item Name="BaseElements.ChangeDataUserTask8.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.DataSourceFilters.Caption" Value="Фильтры источника данных" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.EntitySchemaUId.Caption" Value="Объект" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.IsMatchConditions.Caption" Value="Если объект соответствует условиям" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.IsMatchConditions.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ChangeDataUserTask9.Parameters.RecordColumnValues.Caption" Value="Значения полей" />
 			<Item Name="BaseElements.LinkEntityToProcessUserTask2.Parameters.EntityId.Caption" Value="Объект" />
 			<Item Name="BaseElements.LinkEntityToProcessUserTask2.Parameters.EntitySchemaId.Caption" Value="Схема объекта" />
 			<Item Name="BaseElements.LinkEntityToProcessUserTask3.Parameters.EntityId.Caption" Value="Объект" />

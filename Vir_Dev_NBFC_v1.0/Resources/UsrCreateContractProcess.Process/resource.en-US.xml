@@ -370,7 +370,7 @@
 			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
 			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask9.Parameters.ResultType.Caption" Value="Type of result" />
-			<Item Name="Caption" Value="Create Contract Process" />
+			<Item Name="Caption" Value="Create Agreement Process" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
 			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />

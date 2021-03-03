@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "fe3f384e-4feb-46a0-8448-cf10161ac389",
     "Name": "UsrApplications",
-    "ModifiedOnUtc": "\/Date(1614002604000)\/",
+    "ModifiedOnUtc": "\/Date(1614333048000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Applications",
-    "DependsOn": []
+    "Caption": "Applications"
   }
 }

@@ -11,9 +11,74 @@ define("UsrPaymentGate1Page", [], function() {
 					"masterColumn": "Id",
 					"detailColumn": "UsrPaymentGate"
 				}
+			},
+			"UsrSchemab241103dDetail0f6feb14": {
+				"schemaName": "UsrSchemab241103dDetail",
+				"entitySchemaName": "UsrEMIRecords",
+				"filter": {
+					"detailColumn": "UsrPaymentGate",
+					"masterColumn": "Id"
+				}
+			},
+			"FileDetailV247dbb622": {
+				"schemaName": "FileDetailV2",
+				"entitySchemaName": "UsrPaymentGateFile",
+				"filter": {
+					"detailColumn": "UsrPaymentGate",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
-		businessRules: /**SCHEMA_BUSINESS_RULES*/{}/**SCHEMA_BUSINESS_RULES*/,
+		businessRules: /**SCHEMA_BUSINESS_RULES*/{
+			"UsrSchemab241103dDetail0f6feb14": {
+				"80d8af6a-7d4b-4b60-b5c3-698e5c1ec499": {
+					"uId": "80d8af6a-7d4b-4b60-b5c3-698e5c1ec499",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 7,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrNumberOfMonthsCustomerWantsToPay"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 0,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"UsrNumberOfMonthsCustomerWantsToPay": {
+				"73cd2a17-fe9b-44fb-9f36-e135993006b9": {
+					"uId": "73cd2a17-fe9b-44fb-9f36-e135993006b9",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 7,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrNumberOfMonthsCustomerWantsToPay"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 0,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			}
+		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
 		diff: /**SCHEMA_DIFF*/[
@@ -96,10 +161,48 @@ define("UsrPaymentGate1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "NotesAndFilesTab",
+				"name": "LOOKUP3f00a2df-d346-4b23-a366-bd0eeddf3c0c",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 2,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrContact",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUPf40919ee-7062-4f03-b334-153316237c69",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 2,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrLoanType",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "Taba3699712TabLabel",
 				"values": {
 					"caption": {
-						"bindTo": "Resources.Strings.NotesAndFilesTabCaption"
+						"bindTo": "Resources.Strings.Taba3699712TabLabelTabCaption"
 					},
 					"items": [],
 					"order": 0
@@ -110,62 +213,51 @@ define("UsrPaymentGate1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Files",
+				"name": "UsrSchemab241103dDetail0f6feb14",
 				"values": {
-					"itemType": 2
+					"itemType": 2,
+					"markerValue": "added-detail"
 				},
-				"parentName": "NotesAndFilesTab",
+				"parentName": "Taba3699712TabLabel",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
 				"operation": "insert",
-				"name": "NotesControlGroup",
+				"name": "Tab0d8fa7edTabLabel",
 				"values": {
-					"itemType": 15,
 					"caption": {
-						"bindTo": "Resources.Strings.NotesGroupCaption"
+						"bindTo": "Resources.Strings.Tab0d8fa7edTabLabelTabCaption"
 					},
-					"items": []
+					"items": [],
+					"order": 1
 				},
-				"parentName": "NotesAndFilesTab",
-				"propertyName": "items",
+				"parentName": "Tabs",
+				"propertyName": "tabs",
 				"index": 1
 			},
 			{
 				"operation": "insert",
-				"name": "Notes",
+				"name": "FileDetailV247dbb622",
 				"values": {
-					"bindTo": "UsrNotes",
-					"dataValueType": 1,
-					"contentType": 4,
-					"layout": {
-						"column": 0,
-						"row": 0,
-						"colSpan": 24
-					},
-					"labelConfig": {
-						"visible": false
-					},
-					"controlConfig": {
-						"imageLoaded": {
-							"bindTo": "insertImagesToNotes"
-						},
-						"images": {
-							"bindTo": "NotesImagesCollection"
-						}
-					}
+					"itemType": 2,
+					"markerValue": "added-detail"
 				},
-				"parentName": "NotesControlGroup",
+				"parentName": "Tab0d8fa7edTabLabel",
 				"propertyName": "items",
 				"index": 0
 			},
 			{
-				"operation": "merge",
-				"name": "ESNTab",
-				"values": {
-					"order": 1
-				}
+				"operation": "remove",
+				"name": "ESNTab"
+			},
+			{
+				"operation": "remove",
+				"name": "ESNFeedContainer"
+			},
+			{
+				"operation": "remove",
+				"name": "ESNFeed"
 			}
 		]/**SCHEMA_DIFF*/
 	};

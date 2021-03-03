@@ -93,7 +93,33 @@
   "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
   "E5": false
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","68fec7e8-d6d3-40d2-aa66-fce76073032d","db8da186-70dd-46c2-a875-5e874654d122","715e7d53-03d4-4b15-9c53-66a2be331597","b9399588-7303-4368-9985-91cceca63497","250b9d51-ec04-4fae-a1fe-f80f75c3acf8","a9a04783-8052-45bb-a935-60ce088188fa"]
++ MetaData.Schema.D2 {
+  "UId": "361b2164-82b2-4d6b-ba1e-7469f0272154",
+  "A2": "UsrContact",
+  "A3": "8f51917d-e74e-4b88-b4db-45ff742002be",
+  "A4": "8f51917d-e74e-4b88-b4db-45ff742002be",
+  "A5": "4f5fe57f-5276-4ec9-964f-60dc5bea372b",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E5": false,
+  "E6": true,
+  "E17": "UsrContactId",
+  "E18": "UsrContactName"
+}
++ MetaData.Schema.D2 {
+  "UId": "107e9d51-3c1e-4701-b1f1-96ae2e1b4c33",
+  "A2": "UsrLoanType",
+  "A3": "8f51917d-e74e-4b88-b4db-45ff742002be",
+  "A4": "8f51917d-e74e-4b88-b4db-45ff742002be",
+  "A5": "4f5fe57f-5276-4ec9-964f-60dc5bea372b",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "2d9279d5-eb3c-4d56-a187-1e0fd952ebc5",
+  "E5": false,
+  "E6": true,
+  "E17": "UsrLoanTypeId",
+  "E18": "UsrLoanTypeName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","68fec7e8-d6d3-40d2-aa66-fce76073032d","db8da186-70dd-46c2-a875-5e874654d122","715e7d53-03d4-4b15-9c53-66a2be331597","b9399588-7303-4368-9985-91cceca63497","250b9d51-ec04-4fae-a1fe-f80f75c3acf8","a9a04783-8052-45bb-a935-60ce088188fa","361b2164-82b2-4d6b-ba1e-7469f0272154","107e9d51-3c1e-4701-b1f1-96ae2e1b4c33"]
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30

@@ -40,7 +40,7 @@
 			<Item Name="Columns.UsrIsCurrent.Caption" Value="Is Current" />
 			<Item Name="Columns.UsrIsLostCustomer.Caption" Value="Is Lost Customer" />
 			<Item Name="Columns.UsrLoanAmountRequested.Caption" Value="LoanAmountRequested" />
-			<Item Name="Columns.UsrLoanTermRequested.Caption" Value="LoanTermRequested" />
+			<Item Name="Columns.UsrLongTermLoanRequested.Caption" Value="Long Term Loan Requested" />
 			<Item Name="Columns.UsrMaritalStatus.Caption" Value="Marital Status " />
 			<Item Name="Columns.UsrMiddleName.Caption" Value="Middle Name" />
 			<Item Name="Columns.UsrMobileNumber.Caption" Value="Mobile Number" />
@@ -59,6 +59,7 @@
 			<Item Name="Columns.UsrProduct.Caption" Value="Product " />
 			<Item Name="Columns.UsrReasonForLoan.Caption" Value="Reason For Loan" />
 			<Item Name="Columns.UsrRegZip.Caption" Value="ZIP Code" />
+			<Item Name="Columns.UsrShortTermLoanRequested.Caption" Value="Short Term Loan Requested" />
 			<Item Name="Columns.UsrSpouseName.Caption" Value="Spouse Name" />
 			<Item Name="Columns.UsrStateAsPerKYC.Caption" Value="State as per KYC" />
 			<Item Name="Columns.UsrSurname.Caption" Value="Surname" />

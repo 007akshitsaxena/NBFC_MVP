@@ -5,6 +5,8 @@
 			<Item Name="Caption" Value="Payment Gate" />
 			<Item Name="Columns.UsrAgreement.Caption" Value="Agreement" />
 			<Item Name="Columns.UsrAmountPaid.Caption" Value="Amount Paid by Customer" />
+			<Item Name="Columns.UsrContact.Caption" Value="Contact" />
+			<Item Name="Columns.UsrLoanType.Caption" Value="Loan Type" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
 			<Item Name="Columns.UsrNumberOfMonthsCustomerWantsToPay.Caption" Value="Number of Month Customer wants to pay" />

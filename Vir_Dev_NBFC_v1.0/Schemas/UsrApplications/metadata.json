@@ -236,7 +236,7 @@
 }
 + MetaData.Schema.D2 {
   "UId": "9362897e-0d10-4d38-8438-c640ea49d6e9",
-  "A2": "UsrRequestedTerm",
+  "A2": "UsrRequestedTermInDays",
   "A3": "fe3f384e-4feb-46a0-8448-cf10161ac389",
   "A4": "fe3f384e-4feb-46a0-8448-cf10161ac389",
   "A5": "4f5fe57f-5276-4ec9-964f-60dc5bea372b",
@@ -265,7 +265,7 @@
 }
 + MetaData.Schema.D2 {
   "UId": "c21d3ee8-6da4-4de7-813e-3a978cc88909",
-  "A2": "UsrApprovedTerm",
+  "A2": "UsrApprovedTermInMonths",
   "A3": "fe3f384e-4feb-46a0-8448-cf10161ac389",
   "A4": "fe3f384e-4feb-46a0-8448-cf10161ac389",
   "A5": "4f5fe57f-5276-4ec9-964f-60dc5bea372b",
@@ -346,7 +346,25 @@
   "E17": "UsrAgreementId",
   "E18": "UsrAgreementUsrName"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","de1ffe76-b059-40e1-ae27-1d33f80c1833","f17521d5-02cb-43fd-ae00-950e8ea331aa","356debd6-2506-46cb-bf7a-b4d9ce6b1907","7c5d6a43-d0ed-4f54-82a7-e1631661c406","f5691694-45a6-4047-8816-914e626f9252","15ec1e49-113e-4b95-9ec7-20a09fbe53dc","0d42b432-e723-451b-bd2a-eba0ccf07ffb","2cb55668-37d4-4590-bdbc-0241d2a7c495","1bd9457d-4726-4bfb-9925-3a9d0ce72746","ecb97063-d6dc-4f8b-a8d0-1a68c91c2bbe","6babfd4e-e40e-4a5d-a843-2071d321e23f","5fd73d53-12ff-47e4-926a-d9d52fe41f62","0bafd707-e07c-4473-b286-a9c521a117cb","e66ec56e-d810-4431-91e2-24be75d5d4c0","c8cfe8c1-f165-4571-860c-b1c819c70b3c","be512552-745a-4e5f-8d83-8f6c98406020","3e708fe8-fadb-4a97-8ffa-4b77811a1f3d","da4c08cd-9aa2-4294-bd85-e6e15a37f065","9362897e-0d10-4d38-8438-c640ea49d6e9","cf5e5673-4ce0-4cd7-bfb4-00a0f64696c8","555c3e67-5259-4409-8bf1-db30bdca083a","c21d3ee8-6da4-4de7-813e-3a978cc88909","fbe0f7a3-1a2b-4b69-91ad-10993afa7a6e","2cf56ae5-b0c8-4e84-b72e-8446da0b16ac","438c2281-258d-4c17-b461-ed5eee5b9426","e4ac10e8-9f52-408d-bad9-7883e85eebf4","3ffca129-0086-4b25-9be3-640711519e4c","724eb4e9-033b-45e6-afe2-aeceb2fa41ee","2c55c873-426a-4b3c-826b-65d8347f00a8"]
++ MetaData.Schema.D2 {
+  "UId": "13ae7593-4a80-44d6-ab63-5e11844117ec",
+  "A2": "UsrRequestedTermInMonths",
+  "A3": "fe3f384e-4feb-46a0-8448-cf10161ac389",
+  "A4": "fe3f384e-4feb-46a0-8448-cf10161ac389",
+  "A5": "4f5fe57f-5276-4ec9-964f-60dc5bea372b",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+  "E5": false
+}
++ MetaData.Schema.D2 {
+  "UId": "993d1eb4-6c76-4958-8476-b9417a592a75",
+  "A2": "UsrApprovedTermInDays",
+  "A3": "fe3f384e-4feb-46a0-8448-cf10161ac389",
+  "A4": "fe3f384e-4feb-46a0-8448-cf10161ac389",
+  "A5": "4f5fe57f-5276-4ec9-964f-60dc5bea372b",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+  "E5": false
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","de1ffe76-b059-40e1-ae27-1d33f80c1833","f17521d5-02cb-43fd-ae00-950e8ea331aa","356debd6-2506-46cb-bf7a-b4d9ce6b1907","7c5d6a43-d0ed-4f54-82a7-e1631661c406","f5691694-45a6-4047-8816-914e626f9252","15ec1e49-113e-4b95-9ec7-20a09fbe53dc","0d42b432-e723-451b-bd2a-eba0ccf07ffb","2cb55668-37d4-4590-bdbc-0241d2a7c495","1bd9457d-4726-4bfb-9925-3a9d0ce72746","ecb97063-d6dc-4f8b-a8d0-1a68c91c2bbe","6babfd4e-e40e-4a5d-a843-2071d321e23f","5fd73d53-12ff-47e4-926a-d9d52fe41f62","0bafd707-e07c-4473-b286-a9c521a117cb","e66ec56e-d810-4431-91e2-24be75d5d4c0","c8cfe8c1-f165-4571-860c-b1c819c70b3c","be512552-745a-4e5f-8d83-8f6c98406020","3e708fe8-fadb-4a97-8ffa-4b77811a1f3d","da4c08cd-9aa2-4294-bd85-e6e15a37f065","9362897e-0d10-4d38-8438-c640ea49d6e9","cf5e5673-4ce0-4cd7-bfb4-00a0f64696c8","555c3e67-5259-4409-8bf1-db30bdca083a","c21d3ee8-6da4-4de7-813e-3a978cc88909","fbe0f7a3-1a2b-4b69-91ad-10993afa7a6e","2cf56ae5-b0c8-4e84-b72e-8446da0b16ac","438c2281-258d-4c17-b461-ed5eee5b9426","e4ac10e8-9f52-408d-bad9-7883e85eebf4","3ffca129-0086-4b25-9be3-640711519e4c","724eb4e9-033b-45e6-afe2-aeceb2fa41ee","2c55c873-426a-4b3c-826b-65d8347f00a8","13ae7593-4a80-44d6-ab63-5e11844117ec","993d1eb4-6c76-4958-8476-b9417a592a75"]
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30

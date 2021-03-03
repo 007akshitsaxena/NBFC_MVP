@@ -8,9 +8,13 @@
 			<Item Name="Columns.UsrBalancedAmount.Caption" Value="Balance Amount" />
 			<Item Name="Columns.UsrDueDate.Caption" Value="DueDate" />
 			<Item Name="Columns.UsrEMIType.Caption" Value="EMI Type" />
+			<Item Name="Columns.UsrIsLatePaymentFeeApplied.Caption" Value="Is Late Payment Field Applied" />
 			<Item Name="Columns.UsrIsRepaid.Caption" Value="Is Repaid" />
+			<Item Name="Columns.UsrLatePaymentFeeCheck.Caption" Value="Late Payment Fee Check" />
 			<Item Name="Columns.UsrMonthCount.Caption" Value="Month Count" />
+			<Item Name="Columns.UsrOldAmount.Caption" Value="Old Amount" />
 			<Item Name="Columns.UsrOverpaymentAmount.Caption" Value="Overpayment Amount" />
+			<Item Name="Columns.UsrPaymentGate.Caption" Value="Payment Gate" />
 			<Item Name="Columns.UsrRepaymentAmount.Caption" Value="Repayment Amount" />
 			<Item Name="Columns.UsrStartDate.Caption" Value="Start Date" />
 		</Items>

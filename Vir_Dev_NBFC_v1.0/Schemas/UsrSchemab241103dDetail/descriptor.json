@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "fd48f4c3-d0ea-428e-a89d-82c71e0f8528",
+    "Name": "UsrSchemab241103dDetail",
+    "ModifiedOnUtc": "\/Date(1614336979000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"EMI Records for Payment Gate\""
+  }
+}

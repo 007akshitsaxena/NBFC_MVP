@@ -5,7 +5,8 @@
 			<Item Name="Caption" Value="Agreements" />
 			<Item Name="Columns.UsrActivationTransactionId.Caption" Value="ActivationTransactionId" />
 			<Item Name="Columns.UsrAgreementStatus.Caption" Value="Individual Contract Status" />
-			<Item Name="Columns.UsrApprovedTenureInMonths.Caption" Value="Approved Tenure in Months" />
+			<Item Name="Columns.UsrApprovedTenureInDays.Caption" Value="Approved Tenure (In Days)" />
+			<Item Name="Columns.UsrApprovedTenureInMonths.Caption" Value="Approved Tenure (In Months)" />
 			<Item Name="Columns.UsrBalancedDebtAmount.Caption" Value="Balanced Debt Amount" />
 			<Item Name="Columns.UsrClosedOn.Caption" Value="ClosedOn" />
 			<Item Name="Columns.UsrDPD.Caption" Value="DPD" />
@@ -17,15 +18,19 @@
 			<Item Name="Columns.UsrIsDisbursementFailed.Caption" Value="IsDisbursementFailed" />
 			<Item Name="Columns.UsrIsDisbursmentSMSSent.Caption" Value="IsDisbursmentSMSSent" />
 			<Item Name="Columns.UsrIsInterestCalculated.Caption" Value="Is Interest Calculated" />
+			<Item Name="Columns.UsrIsLatePaymentFeeApplied.Caption" Value="Is Late Payment Fee Charged" />
 			<Item Name="Columns.UsrIsStorno.Caption" Value="IsStorno" />
 			<Item Name="Columns.UsrLastOverdueDate.Caption" Value="Last overdue date" />
+			<Item Name="Columns.UsrLatePaymentFeeCheck.Caption" Value="Late Payment Fee Check" />
 			<Item Name="Columns.UsrLender.Caption" Value="Lender" />
+			<Item Name="Columns.UsrLoanType.Caption" Value="Loan Type" />
 			<Item Name="Columns.UsrMaxDPD.Caption" Value="Maximum DPD" />
 			<Item Name="Columns.UsrName.Caption" Value="Number" />
 			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
 			<Item Name="Columns.UsrNumberOfEMICustomerWantsToPay.Caption" Value="Number of EMI's Customer want to pay" />
+			<Item Name="Columns.UsrOldDebtAmount.Caption" Value="Old Debt Amount" />
 			<Item Name="Columns.UsrOperationCategory.Caption" Value="Operation Category" />
-			<Item Name="Columns.UsrOverpaymentDebtAmount.Caption" Value="OverpaymentDebtAmount" />
+			<Item Name="Columns.UsrOverpaymentDebtAmount.Caption" Value="Overpayment Debt Amount" />
 			<Item Name="Columns.UsrProductCategory.Caption" Value="Product Category" />
 			<Item Name="Columns.UsrProductClass.Caption" Value="Product Class" />
 			<Item Name="Columns.UsrProducts.Caption" Value="Product " />

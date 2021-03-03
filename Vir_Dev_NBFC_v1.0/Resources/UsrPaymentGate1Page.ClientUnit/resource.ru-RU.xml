@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;Payment Gate&quot;" />
+			<Item Name="LocalizableStrings.FileDetailV247dbb622DetailCaptionOnPage.Value" Value="Файлы и ссылки" />
 		</Items>
 	</Group>
 </Resources>

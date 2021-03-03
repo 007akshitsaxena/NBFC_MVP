@@ -1168,7 +1168,7 @@ define("UsrApplicationGate1Page", [], function() {
 						"row": 0,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutffb2f981"
 					},
-					"bindTo": "UsrLoanTermRequested",
+					"bindTo": "UsrShortTermLoanRequested",
 					"enabled": true
 				},
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutffb2f981",
@@ -1202,7 +1202,7 @@ define("UsrApplicationGate1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 1,
+						"row": 3,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutffb2f981"
 					},
 					"bindTo": "UsrBankName",
@@ -1248,6 +1248,24 @@ define("UsrApplicationGate1Page", [], function() {
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutffb2f981",
 				"propertyName": "items",
 				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGERe97a580e-e3d7-4cc6-9f8e-982f76082c9c",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 1,
+						"layoutName": "Tab4a7f34e2TabLabelGridLayoutffb2f981"
+					},
+					"bindTo": "UsrLongTermLoanRequested",
+					"enabled": true
+				},
+				"parentName": "Tab4a7f34e2TabLabelGridLayoutffb2f981",
+				"propertyName": "items",
+				"index": 6
 			},
 			{
 				"operation": "insert",

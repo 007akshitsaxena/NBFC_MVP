@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c6154a3e-0e7c-45b5-8d7b-7a5aa3515454",
+    "Name": "UsrSchemae65d7c4aDetail",
+    "ModifiedOnUtc": "\/Date(1614338050000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Customer's Payment Information\""
+  }
+}

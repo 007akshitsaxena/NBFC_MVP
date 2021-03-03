@@ -207,6 +207,78 @@ define("UsrAgreements1Page", [], function() {
 						}
 					]
 				}
+			},
+			"UsrApprovedTenureInMonths": {
+				"54865458-860e-4d32-89f3-f2a88a2c7bc3": {
+					"uId": "54865458-860e-4d32-89f3-f2a88a2c7bc3",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 7,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrApprovedTenureInMonths"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 0,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"UsrApprovedTenureInDays": {
+				"9d6c83ac-0d60-422d-b79e-b852f354c8f2": {
+					"uId": "9d6c83ac-0d60-422d-b79e-b852f354c8f2",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 7,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrApprovedTenureInDays"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": 0,
+								"dataValueType": 4
+							}
+						}
+					]
+				}
+			},
+			"Tab4886e313TabLabelGroup3dbbb1b9": {
+				"7dab465f-5c33-4895-9d50-6c743e2e862f": {
+					"uId": "7dab465f-5c33-4895-9d50-6c743e2e862f",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIsLatePaymentFeeApplied"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
 			}
 		}/**SCHEMA_BUSINESS_RULES*/,
 		methods: {},
@@ -315,7 +387,7 @@ define("UsrAgreements1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "UsrIsInterestCalculated9d3265cb-413e-4882-b18a-e3719bdacb78",
+				"name": "LOOKUP14545e52-0227-4ac9-aa24-85f0b8be22d2",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -324,7 +396,9 @@ define("UsrAgreements1Page", [], function() {
 						"row": 2,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrIsInterestCalculated"
+					"bindTo": "UsrLoanType",
+					"enabled": true,
+					"contentType": 5
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -347,6 +421,24 @@ define("UsrAgreements1Page", [], function() {
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "INTEGERfe6eb3d1-10aa-4580-b330-f200e4f6ed70",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrApprovedTenureInDays",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 7
 			},
 			{
 				"operation": "insert",
@@ -718,6 +810,94 @@ define("UsrAgreements1Page", [], function() {
 				"parentName": "Tab4886e313TabLabelGridLayout0a529109",
 				"propertyName": "items",
 				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "Tab4886e313TabLabelGroup3dbbb1b9",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tab4886e313TabLabelGroup3dbbb1b9GroupCaption"
+					},
+					"itemType": 15,
+					"markerValue": "added-group",
+					"items": []
+				},
+				"parentName": "Tab4886e313TabLabel",
+				"propertyName": "items",
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "Tab4886e313TabLabelGridLayout6c3988a6",
+				"values": {
+					"itemType": 0,
+					"items": []
+				},
+				"parentName": "Tab4886e313TabLabelGroup3dbbb1b9",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "BOOLEAN47879b33-8b43-4142-9628-831f15cbd84c",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Tab4886e313TabLabelGridLayout6c3988a6"
+					},
+					"bindTo": "UsrIsLatePaymentFeeApplied",
+					"enabled": true
+				},
+				"parentName": "Tab4886e313TabLabelGridLayout6c3988a6",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FLOATfbfce95e-1985-40f7-8370-d8a88c774880",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 0,
+						"layoutName": "Tab4886e313TabLabelGridLayout6c3988a6"
+					},
+					"bindTo": "UsrOldDebtAmount",
+					"enabled": true
+				},
+				"parentName": "Tab4886e313TabLabelGridLayout6c3988a6",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "Tab4886e313TabLabelGroup82b2b030",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tab4886e313TabLabelGroup82b2b030GroupCaption"
+					},
+					"itemType": 15,
+					"markerValue": "added-group",
+					"items": []
+				},
+				"parentName": "Tab4886e313TabLabel",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "Tab4886e313TabLabelGridLayout2a99454a",
+				"values": {
+					"itemType": 0,
+					"items": []
+				},
+				"parentName": "Tab4886e313TabLabelGroup82b2b030",
+				"propertyName": "items",
+				"index": 0
 			},
 			{
 				"operation": "insert",

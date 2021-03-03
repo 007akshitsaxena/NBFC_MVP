@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "2d9279d5-eb3c-4d56-a187-1e0fd952ebc5",
+    "Name": "UsrLoanType",
+    "ModifiedOnUtc": "\/Date(1614338628000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Loan Type"
+  }
+}

@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "51a7a952-1b13-4dff-a5b2-8f46de24248f",
     "Name": "UsrCustomerBackgroundDetailsCheckProcess",
-    "ModifiedOnUtc": "\/Date(1613688683000)\/",
+    "ModifiedOnUtc": "\/Date(1614333921000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Customer Background Details Check Process (Call 2)",
-    "DependsOn": []
+    "Caption": "Customer Background Details Check Process (Call 2)"
   }
 }

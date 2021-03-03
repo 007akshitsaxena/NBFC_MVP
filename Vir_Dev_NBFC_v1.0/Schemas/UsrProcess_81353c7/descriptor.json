@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "66aa1bac-eeee-4bc1-8dd0-aad91a709801",
     "Name": "UsrProcess_81353c7",
-    "ModifiedOnUtc": "\/Date(1614163820000)\/",
+    "ModifiedOnUtc": "\/Date(1614339658000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Payment Gate Process",
-    "DependsOn": []
+    "Caption": "Payment Gate Process"
   }
 }
