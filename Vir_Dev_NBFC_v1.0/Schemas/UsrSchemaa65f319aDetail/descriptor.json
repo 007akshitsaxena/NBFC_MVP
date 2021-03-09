@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "559c2007-329b-45c0-9fc9-d316855c7bbf",
+    "Name": "UsrSchemaa65f319aDetail",
+    "ModifiedOnUtc": "\/Date(1614763594000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Extension Records\""
+  }
+}

@@ -403,6 +403,60 @@ define("UsrApplicationGate1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "STRING1d97f93c-1e34-40bb-ba6d-b0cd333d83f6",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 5,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrFilePathForPAN",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "STRINGfd198e70-a055-4768-a388-27dde2abbf61",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 6,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrFilePathForAadharFront",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "STRING6c2e2ffc-7e30-489b-b687-617bf31f5535",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 7,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrFilePathForAadharBack",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 13
+			},
+			{
+				"operation": "insert",
 				"name": "Tab4a7f34e2TabLabel",
 				"values": {
 					"caption": {
@@ -998,7 +1052,7 @@ define("UsrApplicationGate1Page", [], function() {
 						"row": 0,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
 					},
-					"bindTo": "UsrCURStreet",
+					"bindTo": "UsrCurrentStreet",
 					"enabled": true
 				},
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
@@ -1016,7 +1070,7 @@ define("UsrApplicationGate1Page", [], function() {
 						"row": 0,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
 					},
-					"bindTo": "UsrCURBuilding",
+					"bindTo": "UsrCurrentBuilding",
 					"enabled": true
 				},
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
@@ -1034,48 +1088,12 @@ define("UsrApplicationGate1Page", [], function() {
 						"row": 1,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
 					},
-					"bindTo": "UsrCURLandmark",
+					"bindTo": "UsrCurrentLandmark",
 					"enabled": true
 				},
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
 				"propertyName": "items",
 				"index": 2
-			},
-			{
-				"operation": "insert",
-				"name": "UsrTSCURCityAreaCountyCodee357ec11-6832-4333-91bb-4492af716530",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 12,
-						"row": 1,
-						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
-					},
-					"bindTo": "UsrCURCity",
-					"enabled": true
-				},
-				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
-				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "UsrTSCURProvinceMegapolisCode550d8f93-62f0-422b-922e-f7b16b1f81c6",
-				"values": {
-					"layout": {
-						"colSpan": 12,
-						"rowSpan": 1,
-						"column": 0,
-						"row": 2,
-						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
-					},
-					"bindTo": "UsrCURState",
-					"enabled": true
-				},
-				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
-				"propertyName": "items",
-				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -1085,11 +1103,49 @@ define("UsrApplicationGate1Page", [], function() {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
+						"row": 1,
+						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
+					},
+					"bindTo": "UsrCurrentPIN",
+					"enabled": true
+				},
+				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUP610ee8a1-6f9c-4f50-b2ab-77ca465ec650",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
 						"row": 2,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
 					},
-					"bindTo": "UsrCURZIP",
-					"enabled": true
+					"bindTo": "UsrCurrentCountry",
+					"enabled": true,
+					"contentType": 5
+				},
+				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "LOOKUPa5acddaf-48f0-4e9e-bece-c913bb387a32",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 2,
+						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
+					},
+					"bindTo": "UsrCurrentCity",
+					"enabled": true,
+					"contentType": 5
 				},
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
 				"propertyName": "items",
@@ -1097,7 +1153,7 @@ define("UsrApplicationGate1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "UsrFSRegZip316e5041-c26a-41ec-abd1-78836900f33b",
+				"name": "LOOKUP8de6413f-26ca-41b0-bfae-c5fbd7b130d9",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -1106,8 +1162,9 @@ define("UsrApplicationGate1Page", [], function() {
 						"row": 3,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea"
 					},
-					"bindTo": "UsrRegZip",
-					"enabled": true
+					"bindTo": "UsrCurrentState",
+					"enabled": true,
+					"contentType": 3
 				},
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutc0a954ea",
 				"propertyName": "items",
@@ -1196,18 +1253,17 @@ define("UsrApplicationGate1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "LOOKUP1851a684-ea05-485e-b0d3-b778ed1699dc",
+				"name": "INTEGERe97a580e-e3d7-4cc6-9f8e-982f76082c9c",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 3,
+						"row": 1,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutffb2f981"
 					},
-					"bindTo": "UsrBankName",
-					"enabled": true,
-					"contentType": 3
+					"bindTo": "UsrLongTermLoanRequested",
+					"enabled": true
 				},
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutffb2f981",
 				"propertyName": "items",
@@ -1251,17 +1307,18 @@ define("UsrApplicationGate1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "INTEGERe97a580e-e3d7-4cc6-9f8e-982f76082c9c",
+				"name": "LOOKUP1851a684-ea05-485e-b0d3-b778ed1699dc",
 				"values": {
 					"layout": {
 						"colSpan": 12,
 						"rowSpan": 1,
 						"column": 12,
-						"row": 1,
+						"row": 3,
 						"layoutName": "Tab4a7f34e2TabLabelGridLayoutffb2f981"
 					},
-					"bindTo": "UsrLongTermLoanRequested",
-					"enabled": true
+					"bindTo": "UsrBankName",
+					"enabled": true,
+					"contentType": 3
 				},
 				"parentName": "Tab4a7f34e2TabLabelGridLayoutffb2f981",
 				"propertyName": "items",

@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "71986771-e841-4faf-9c0a-34382ac290db",
+    "Name": "UsrExtensionTermRecord",
+    "ModifiedOnUtc": "\/Date(1614763665000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Extension Term Record"
+  }
+}

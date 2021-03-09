@@ -67,6 +67,14 @@ define("UsrAgreements1Page", [], function() {
 					"detailColumn": "UsrAgreement",
 					"masterColumn": "Id"
 				}
+			},
+			"UsrSchemaa65f319aDetailf8286781": {
+				"schemaName": "UsrSchemaa65f319aDetail",
+				"entitySchemaName": "UsrExtensionTermRecord",
+				"filter": {
+					"detailColumn": "UsrAgreements",
+					"masterColumn": "Id"
+				}
 			}
 		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{
@@ -259,7 +267,7 @@ define("UsrAgreements1Page", [], function() {
 			"Tab4886e313TabLabelGroup3dbbb1b9": {
 				"7dab465f-5c33-4895-9d50-6c743e2e862f": {
 					"uId": "7dab465f-5c33-4895-9d50-6c743e2e862f",
-					"enabled": true,
+					"enabled": false,
 					"removed": false,
 					"ruleType": 0,
 					"property": 0,
@@ -275,6 +283,148 @@ define("UsrAgreements1Page", [], function() {
 								"type": 0,
 								"value": true,
 								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"UsrExtRejectionReason": {
+				"c54abf23-f2f6-4101-b29d-63ee37072a16": {
+					"uId": "c54abf23-f2f6-4101-b29d-63ee37072a16",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIsExtensionRejected"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				},
+				"1ba0f5c9-b178-412a-9e79-cc333318ded8": {
+					"uId": "1ba0f5c9-b178-412a-9e79-cc333318ded8",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 2,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIsExtensionRejected"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"UsrExtensionTermInMonths": {
+				"387f11ac-1d51-415d-9c0f-a3954dd85e99": {
+					"uId": "387f11ac-1d51-415d-9c0f-a3954dd85e99",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrLoanType"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": "01200456-abe9-4e97-a44d-a0af8ac31838",
+								"dataValueType": 10
+							}
+						}
+					]
+				}
+			},
+			"UsrExtensionTermInDays": {
+				"79d8a498-a236-464d-8f76-acdb9932b490": {
+					"uId": "79d8a498-a236-464d-8f76-acdb9932b490",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrLoanType"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": "6d6a8cd6-5265-451c-a6b4-1577130f52fc",
+								"dataValueType": 10
+							}
+						}
+					]
+				}
+			},
+			"UsrSchemaa65f319aDetailf8286781": {
+				"66f44ef1-7416-4ff9-a814-2d55335fcb1c": {
+					"uId": "66f44ef1-7416-4ff9-a814-2d55335fcb1c",
+					"enabled": false,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrIsExtensionApplied"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": true,
+								"dataValueType": 12
+							}
+						}
+					]
+				}
+			},
+			"Tab4886e313TabLabelGroupbee60179": {
+				"ede23f51-0f78-45c4-82ab-72723708905f": {
+					"uId": "ede23f51-0f78-45c4-82ab-72723708905f",
+					"enabled": true,
+					"removed": false,
+					"ruleType": 0,
+					"property": 0,
+					"logical": 0,
+					"conditions": [
+						{
+							"comparisonType": 3,
+							"leftExpression": {
+								"type": 1,
+								"attribute": "UsrLoanType"
+							},
+							"rightExpression": {
+								"type": 0,
+								"value": "6d6a8cd6-5265-451c-a6b4-1577130f52fc",
+								"dataValueType": 10
 							}
 						}
 					]
@@ -677,6 +827,24 @@ define("UsrAgreements1Page", [], function() {
 			},
 			{
 				"operation": "insert",
+				"name": "DATETIMEfad03b9c-bf14-4633-adef-3d1709deb4f8",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 2,
+						"layoutName": "Tab4886e313TabLabelGridLayout5f79ac32"
+					},
+					"bindTo": "UsrExtendedFinishedOn",
+					"enabled": true
+				},
+				"parentName": "Tab4886e313TabLabelGridLayout5f79ac32",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
 				"name": "UsrSchemafaccda06Detail04c79b1d",
 				"values": {
 					"itemType": 2,
@@ -875,14 +1043,10 @@ define("UsrAgreements1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Tab4886e313TabLabelGroup82b2b030",
+				"name": "UsrSchemaa65f319aDetailf8286781",
 				"values": {
-					"caption": {
-						"bindTo": "Resources.Strings.Tab4886e313TabLabelGroup82b2b030GroupCaption"
-					},
-					"itemType": 15,
-					"markerValue": "added-group",
-					"items": []
+					"itemType": 2,
+					"markerValue": "added-detail"
 				},
 				"parentName": "Tab4886e313TabLabel",
 				"propertyName": "items",
@@ -890,14 +1054,63 @@ define("UsrAgreements1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "Tab4886e313TabLabelGridLayout2a99454a",
+				"name": "Tab4886e313TabLabelGroupbee60179",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tab4886e313TabLabelGroupbee60179GroupCaption"
+					},
+					"itemType": 15,
+					"markerValue": "added-group",
+					"items": []
+				},
+				"parentName": "Tab4886e313TabLabel",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "Tab4886e313TabLabelGridLayoutb1b2e9ba",
 				"values": {
 					"itemType": 0,
 					"items": []
 				},
-				"parentName": "Tab4886e313TabLabelGroup82b2b030",
+				"parentName": "Tab4886e313TabLabelGroupbee60179",
 				"propertyName": "items",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrIsExtensionAppliedf366a9dc-d2fd-4571-8fe0-4e975398483d",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 0,
+						"layoutName": "Tab4886e313TabLabelGridLayoutb1b2e9ba"
+					},
+					"bindTo": "UsrIsExtensionApplied"
+				},
+				"parentName": "Tab4886e313TabLabelGridLayoutb1b2e9ba",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrOldDebtAmount6ec69bf5-d58d-46c7-baae-6ec4fabdd43e",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 0,
+						"layoutName": "Tab4886e313TabLabelGridLayoutb1b2e9ba"
+					},
+					"bindTo": "UsrOldDebtAmount"
+				},
+				"parentName": "Tab4886e313TabLabelGridLayoutb1b2e9ba",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",

@@ -22,16 +22,20 @@
 			<Item Name="Columns.UsrCoApplicantName.Caption" Value="Co Applicant Name" />
 			<Item Name="Columns.UsrCoApplicantRelationship.Caption" Value="Co Applicant Relationship" />
 			<Item Name="Columns.UsrContact.Caption" Value="Contact" />
-			<Item Name="Columns.UsrCURBuilding.Caption" Value="Current Building" />
-			<Item Name="Columns.UsrCURCity.Caption" Value="Current City" />
-			<Item Name="Columns.UsrCURLandmark.Caption" Value="Current Landmark" />
-			<Item Name="Columns.UsrCURState.Caption" Value="Current State" />
-			<Item Name="Columns.UsrCURStreet.Caption" Value="Current Street" />
-			<Item Name="Columns.UsrCURZIP.Caption" Value="Current PIN" />
+			<Item Name="Columns.UsrCurrentBuilding.Caption" Value="Current Building" />
+			<Item Name="Columns.UsrCurrentCity.Caption" Value="Current City" />
+			<Item Name="Columns.UsrCurrentCountry.Caption" Value="Current Country" />
+			<Item Name="Columns.UsrCurrentLandmark.Caption" Value="Current Landmark" />
+			<Item Name="Columns.UsrCurrentPIN.Caption" Value="Current PIN" />
+			<Item Name="Columns.UsrCurrentState.Caption" Value="Current State" />
+			<Item Name="Columns.UsrCurrentStreet.Caption" Value="Current Street" />
 			<Item Name="Columns.UsrCustomerType.Caption" Value="Customer Type" />
 			<Item Name="Columns.UsrEmail.Caption" Value="Email" />
 			<Item Name="Columns.UsrEmploymentType.Caption" Value="Employment Type" />
 			<Item Name="Columns.UsrFatherName.Caption" Value="Father's Name" />
+			<Item Name="Columns.UsrFilePathForAadharBack.Caption" Value="FilePathForAadharBack" />
+			<Item Name="Columns.UsrFilePathForAadharFront.Caption" Value="FilePathForAadharFront" />
+			<Item Name="Columns.UsrFilePathForPAN.Caption" Value="FilePathForPAN" />
 			<Item Name="Columns.UsrGender.Caption" Value="Gender" />
 			<Item Name="Columns.UsrGivenName.Caption" Value="Given Name" />
 			<Item Name="Columns.UsrIndustryType.Caption" Value="Industry Type" />
@@ -58,7 +62,6 @@
 			<Item Name="Columns.UsrProcessingResult.Caption" Value="Processing Result" />
 			<Item Name="Columns.UsrProduct.Caption" Value="Product " />
 			<Item Name="Columns.UsrReasonForLoan.Caption" Value="Reason For Loan" />
-			<Item Name="Columns.UsrRegZip.Caption" Value="ZIP Code" />
 			<Item Name="Columns.UsrShortTermLoanRequested.Caption" Value="Short Term Loan Requested" />
 			<Item Name="Columns.UsrSpouseName.Caption" Value="Spouse Name" />
 			<Item Name="Columns.UsrStateAsPerKYC.Caption" Value="State as per KYC" />

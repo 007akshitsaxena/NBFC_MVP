@@ -6,6 +6,7 @@
 			<Item Name="LocalizableStrings.DATETIME5dd038a8f5634609907023b92a01189eLabelCaption.Value" Value="Date of Final Debt Calculation" />
 			<Item Name="LocalizableStrings.LOOKUP94caea1bbd84485f8b583513ac4f19feLabelCaption.Value" Value="Transactional Category" />
 			<Item Name="LocalizableStrings.LOOKUPfbbf5d989a25443abf749128a6a01445LabelCaption.Value" Value="Status" />
+			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup030c5ab8GroupCaption.Value" Value="Extension " />
 			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup3dbbb1b9GroupCaption.Value" Value="Late Payment Charges" />
 			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup486e40a6GroupCaption.Value" Value="EMI Repayment " />
 			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup714ea320GroupCaption.Value" Value="Debt Calculations" />
@@ -13,6 +14,7 @@
 			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup82b2b030GroupCaption.Value" Value="Extension Period Details" />
 			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroup948b033eGroupCaption.Value" Value="Status" />
 			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroupb31f84ecGroupCaption.Value" Value="Product " />
+			<Item Name="LocalizableStrings.Tab4886e313TabLabelGroupbee60179GroupCaption.Value" Value="Extension Fee Charges" />
 			<Item Name="LocalizableStrings.Tab4886e313TabLabelTabCaption.Value" Value="General Information" />
 			<Item Name="LocalizableStrings.Tab54c945a3TabLabelTabCaption.Value" Value="Payment History" />
 			<Item Name="LocalizableStrings.Tab62db95d7TabLabelTabCaption.Value" Value="Parameters" />

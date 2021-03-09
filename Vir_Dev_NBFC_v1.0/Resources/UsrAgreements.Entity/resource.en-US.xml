@@ -9,7 +9,9 @@
 			<Item Name="Columns.UsrApprovedTenureInMonths.Caption" Value="Approved Tenure (In Months)" />
 			<Item Name="Columns.UsrBalancedDebtAmount.Caption" Value="Balanced Debt Amount" />
 			<Item Name="Columns.UsrClosedOn.Caption" Value="ClosedOn" />
+			<Item Name="Columns.UsrContact.Caption" Value="Contact" />
 			<Item Name="Columns.UsrDPD.Caption" Value="DPD" />
+			<Item Name="Columns.UsrExtendedFinishedOn.Caption" Value="Extended Finished On" />
 			<Item Name="Columns.UsrFirstOverdueDate.Caption" Value="First overdue date" />
 			<Item Name="Columns.UsrFSDisbursmentDate.Caption" Value="Disbursment Date" />
 			<Item Name="Columns.UsrFSLastLongationTerm.Caption" Value="Last longation term" />
@@ -17,6 +19,7 @@
 			<Item Name="Columns.UsrIsAgreementApproved.Caption" Value="Is Agreement Submitted" />
 			<Item Name="Columns.UsrIsDisbursementFailed.Caption" Value="IsDisbursementFailed" />
 			<Item Name="Columns.UsrIsDisbursmentSMSSent.Caption" Value="IsDisbursmentSMSSent" />
+			<Item Name="Columns.UsrIsExtensionApplied.Caption" Value="Is Extension  Applied" />
 			<Item Name="Columns.UsrIsInterestCalculated.Caption" Value="Is Interest Calculated" />
 			<Item Name="Columns.UsrIsLatePaymentFeeApplied.Caption" Value="Is Late Payment Fee Charged" />
 			<Item Name="Columns.UsrIsStorno.Caption" Value="IsStorno" />
@@ -41,7 +44,6 @@
 			<Item Name="Columns.UsrTSAgreementTimeStamp.Caption" Value="Agreement Time Stamp" />
 			<Item Name="Columns.UsrTSApplication.Caption" Value="Application" />
 			<Item Name="Columns.UsrTSCashIssueDate.Caption" Value="CashIssueDate" />
-			<Item Name="Columns.UsrTSContact.Caption" Value="Contact" />
 			<Item Name="Columns.UsrTSExpiresOn.Caption" Value="ExpiresOn" />
 			<Item Name="Columns.UsrTSHashedAppGateLink.Caption" Value="Hashed Link to Web Site" />
 			<Item Name="Columns.UsrTSInsuranceCode.Caption" Value="Insurance Code" />

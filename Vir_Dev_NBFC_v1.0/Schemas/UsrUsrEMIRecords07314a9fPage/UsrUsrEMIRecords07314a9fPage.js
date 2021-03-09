@@ -3,7 +3,16 @@ define("UsrUsrEMIRecords07314a9fPage", [], function() {
 		entitySchemaName: "UsrEMIRecords",
 		attributes: {},
 		modules: /**SCHEMA_MODULES*/{}/**SCHEMA_MODULES*/,
-		details: /**SCHEMA_DETAILS*/{}/**SCHEMA_DETAILS*/,
+		details: /**SCHEMA_DETAILS*/{
+			"UsrSchemace460000Detail6b2650d7": {
+				"schemaName": "UsrSchemace460000Detail",
+				"entitySchemaName": "UsrExtensionTermRecord",
+				"filter": {
+					"detailColumn": "UsrEMIRecords",
+					"masterColumn": "Id"
+				}
+			}
+		}/**SCHEMA_DETAILS*/,
 		businessRules: /**SCHEMA_BUSINESS_RULES*/{
 			"UsrOldAmount": {
 				"096b0235-69de-4cd7-8916-30bb236316bd": {
@@ -221,6 +230,65 @@ define("UsrUsrEMIRecords07314a9fPage", [], function() {
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "UsrIsExtensionFeeApplied1c350794-239f-48e2-8517-6be8bddc4d09",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 3,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrIsExtensionFeeApplied"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "UsrExtensionDueDatea30c4e3e-3366-48cd-a460-1e5fa20727cb",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 0,
+						"row": 4,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrExtensionDueDate"
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "Tab49631e78TabLabel",
+				"values": {
+					"caption": {
+						"bindTo": "Resources.Strings.Tab49631e78TabLabelTabCaption"
+					},
+					"items": [],
+					"order": 0
+				},
+				"parentName": "Tabs",
+				"propertyName": "tabs",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrSchemace460000Detail6b2650d7",
+				"values": {
+					"itemType": 2,
+					"markerValue": "added-detail"
+				},
+				"parentName": "Tab49631e78TabLabel",
+				"propertyName": "items",
+				"index": 0
 			}
 		]/**SCHEMA_DIFF*/
 	};

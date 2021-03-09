@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Extension Term Record" />
+			<Item Name="Columns.UsrAgreements.Caption" Value="Agreements" />
+			<Item Name="Columns.UsrEMIRecords.Caption" Value="EMI Records" />
+			<Item Name="Columns.UsrExtensionTerm.Caption" Value="Extension Term (In Days)" />
+			<Item Name="Columns.UsrIsExtensionApproved.Caption" Value="Is Extension Approved" />
+			<Item Name="Columns.UsrIsExtensionRejected.Caption" Value="Is Extension Rejected" />
+			<Item Name="Columns.UsrRejectedReason.Caption" Value="Rejection Reason" />
+		</Items>
+	</Group>
+</Resources>

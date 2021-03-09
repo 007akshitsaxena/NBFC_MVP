@@ -8,6 +8,9 @@
 			<Item Name="Columns.UsrBalancedAmount.Caption" Value="Balance Amount" />
 			<Item Name="Columns.UsrDueDate.Caption" Value="DueDate" />
 			<Item Name="Columns.UsrEMIType.Caption" Value="EMI Type" />
+			<Item Name="Columns.UsrExtensionDueDate.Caption" Value="Extension Due Date" />
+			<Item Name="Columns.UsrExtensionFeeCheck.Caption" Value="Extension Fee Check" />
+			<Item Name="Columns.UsrIsExtensionFeeApplied.Caption" Value="Extension Fee Charge" />
 			<Item Name="Columns.UsrIsLatePaymentFeeApplied.Caption" Value="Is Late Payment Field Applied" />
 			<Item Name="Columns.UsrIsRepaid.Caption" Value="Is Repaid" />
 			<Item Name="Columns.UsrLatePaymentFeeCheck.Caption" Value="Late Payment Fee Check" />

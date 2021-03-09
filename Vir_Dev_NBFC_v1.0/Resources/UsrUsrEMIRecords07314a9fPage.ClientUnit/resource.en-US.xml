@@ -3,6 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Card schema: &quot;EMI Records&quot;" />
+			<Item Name="LocalizableStrings.Tab49631e78TabLabelTabCaption.Value" Value="Extension Records" />
+			<Item Name="LocalizableStrings.UsrSchemace460000Detail6b2650d7DetailCaptionOnPage.Value" Value="Extension Records" />
 		</Items>
 	</Group>
 </Resources>
