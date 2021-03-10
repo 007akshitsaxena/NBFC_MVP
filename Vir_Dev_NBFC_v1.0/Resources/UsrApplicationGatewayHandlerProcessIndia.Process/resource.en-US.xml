@@ -114,7 +114,7 @@
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask2.Parameters.ResultType.Caption" Value="Type of result" />
-			<Item Name="BaseElements.ReadDataUserTask3.Caption" Value="Calculate the number of Active Agreements" />
+			<Item Name="BaseElements.ReadDataUserTask3.Caption" Value="Check if Active Agreement Exist" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
 			<Item Name="BaseElements.ReadDataUserTask3.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
@@ -156,7 +156,7 @@
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultIntegerFunction.Caption" Value="Function result" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
 			<Item Name="BaseElements.ReadDataUserTask5.Parameters.ResultType.Caption" Value="Type of result" />
-			<Item Name="BaseElements.ReadDataUserTask6.Caption" Value="Calculate the number of Active Applications" />
+			<Item Name="BaseElements.ReadDataUserTask6.Caption" Value="Check if Active Application Exist" />
 			<Item Name="BaseElements.ReadDataUserTask6.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
 			<Item Name="BaseElements.ReadDataUserTask6.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
 			<Item Name="BaseElements.ReadDataUserTask6.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
@@ -210,6 +210,34 @@
 			<Item Name="BaseElements.SubProcess3.Parameters.UsrApplicationGateId.DisplayValue" Value="[#Application Gate Id#]" />
 			<Item Name="BaseElements.SubProcess3.Parameters.UsrContactId.Caption" Value="Contact Id" />
 			<Item Name="BaseElements.SubProcess3.Parameters.UsrContactId.DisplayValue" Value="[#Contact Id#]" />
+			<Item Name="BaseElements.SubProcess4.Caption" Value="Attach PAN" />
+			<Item Name="BaseElements.SubProcess4.Parameters.EntitySchemaName.Caption" Value="EntitySchemaName" />
+			<Item Name="BaseElements.SubProcess4.Parameters.EntitySchemaName.DisplayValue" Value="ContactFile" />
+			<Item Name="BaseElements.SubProcess4.Parameters.EntitySchemaName.Value" Value="ContactFile" />
+			<Item Name="BaseElements.SubProcess4.Parameters.FileName.Caption" Value="FileName" />
+			<Item Name="BaseElements.SubProcess4.Parameters.FileName.DisplayValue" Value="PAN_CARD" />
+			<Item Name="BaseElements.SubProcess4.Parameters.FileName.Value" Value="PAN_CARD" />
+			<Item Name="BaseElements.SubProcess4.Parameters.FilePath.Caption" Value="FilePath" />
+			<Item Name="BaseElements.SubProcess4.Parameters.FilePath.DisplayValue" Value="[#Read Application Gateway.First item of resulting collection.FilePathForPAN#]" />
+			<Item Name="BaseElements.SubProcess4.Parameters.ParentColumnName.Caption" Value="ParentColumnName" />
+			<Item Name="BaseElements.SubProcess4.Parameters.ParentColumnName.DisplayValue" Value="Contact" />
+			<Item Name="BaseElements.SubProcess4.Parameters.ParentColumnName.Value" Value="Contact" />
+			<Item Name="BaseElements.SubProcess4.Parameters.RecordId.Caption" Value="RecordId" />
+			<Item Name="BaseElements.SubProcess4.Parameters.RecordId.DisplayValue" Value="[#Contact Id#]" />
+			<Item Name="BaseElements.SubProcess5.Caption" Value="Attach Aadhar_Front" />
+			<Item Name="BaseElements.SubProcess5.Parameters.EntitySchemaName.Caption" Value="EntitySchemaName" />
+			<Item Name="BaseElements.SubProcess5.Parameters.EntitySchemaName.DisplayValue" Value="ContactFile" />
+			<Item Name="BaseElements.SubProcess5.Parameters.EntitySchemaName.Value" Value="ContactFile" />
+			<Item Name="BaseElements.SubProcess5.Parameters.FileName.Caption" Value="FileName" />
+			<Item Name="BaseElements.SubProcess5.Parameters.FileName.DisplayValue" Value="AADHAR_FRONT" />
+			<Item Name="BaseElements.SubProcess5.Parameters.FileName.Value" Value="AADHAR_FRONT" />
+			<Item Name="BaseElements.SubProcess5.Parameters.FilePath.Caption" Value="FilePath" />
+			<Item Name="BaseElements.SubProcess5.Parameters.FilePath.DisplayValue" Value="[#Read Application Gateway.First item of resulting collection.FilePathForAadharFront#]" />
+			<Item Name="BaseElements.SubProcess5.Parameters.ParentColumnName.Caption" Value="ParentColumnName" />
+			<Item Name="BaseElements.SubProcess5.Parameters.ParentColumnName.DisplayValue" Value="Contact" />
+			<Item Name="BaseElements.SubProcess5.Parameters.ParentColumnName.Value" Value="Contact" />
+			<Item Name="BaseElements.SubProcess5.Parameters.RecordId.Caption" Value="RecordId" />
+			<Item Name="BaseElements.SubProcess5.Parameters.RecordId.DisplayValue" Value="[#Contact Id#]" />
 			<Item Name="Caption" Value="Application Gateway Handler Process " />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

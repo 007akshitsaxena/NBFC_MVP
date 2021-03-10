@@ -89,34 +89,11 @@
 			<Item Name="BaseElements.SubProcess2.Parameters.UsrContactId.DisplayValue" Value="[#Contact Id#]" />
 			<Item Name="BaseElements.SubProcess2.Parameters.UsrNumber.Caption" Value="Number" />
 			<Item Name="BaseElements.SubProcess2.Parameters.UsrNumber.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Email#]" />
-			<Item Name="BaseElements.SubProcess3.Caption" Value="New Residence Address" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrAddressLine1.Caption" Value="Address Line 1" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrAddressLine1.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Current Street#]" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrAddressLine2.Caption" Value="Address Line 2" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrAddressLine2.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Current Building#]" />
+			<Item Name="BaseElements.SubProcess3.Caption" Value="Add Address" />
+			<Item Name="BaseElements.SubProcess3.Parameters.ApplicationGateID.Caption" Value="Application Gate ID" />
+			<Item Name="BaseElements.SubProcess3.Parameters.ApplicationGateID.DisplayValue" Value="[#Application Gate Id#]" />
 			<Item Name="BaseElements.SubProcess3.Parameters.UsrContactId.Caption" Value="Contact Id" />
 			<Item Name="BaseElements.SubProcess3.Parameters.UsrContactId.DisplayValue" Value="[#Contact Id#]" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrIntPIN.Caption" Value="Int PIN" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrIntPIN.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.ZIP Code#]" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrIsCurrent.Caption" Value="Is Current" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrIsCurrent.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Is Current#]" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrLandmark.Caption" Value="Landmark" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrLandmark.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Current Landmark#]" />
-			<Item Name="BaseElements.SubProcess3.Parameters.UsrPIN.Caption" Value="PIN" />
-			<Item Name="BaseElements.SubProcess4.Caption" Value="New Registration Address" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrAddressLine1.Caption" Value="Address Line 1" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrAddressLine1.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Current Street#]" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrAddressLine2.Caption" Value="Address Line 2" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrAddressLine2.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Current Building#]" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrContactId.Caption" Value="Contact Id" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrContactId.DisplayValue" Value="[#Contact Id#]" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrIntPIN.Caption" Value="Int PIN" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrIntPIN.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Current PIN#]" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrIsCurrent.Caption" Value="Is Current" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrIsCurrent.DisplayValue" Value="[#Boolean value.True#]" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrLandmark.Caption" Value="Landmark" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrLandmark.DisplayValue" Value="[#Read Application Gate.First item of resulting collection.Current Landmark#]" />
-			<Item Name="BaseElements.SubProcess4.Parameters.UsrPIN.Caption" Value="PIN" />
 			<Item Name="Caption" Value="Modify Contact for STEP = 2" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

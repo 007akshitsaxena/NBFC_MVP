@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "8c65fb26-905e-4758-9c69-0f56107b0b86",
     "Name": "UsrAddressAddingProcess",
-    "ModifiedOnUtc": "\/Date(1613197185000)\/",
+    "ModifiedOnUtc": "\/Date(1615374124000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Address Adding Process",
-    "DependsOn": []
+    "Caption": "Address Adding Process"
   }
 }

@@ -2,7 +2,7 @@
 <Resources Culture="th-TH">
 	<Group Type="String">
 		<Items>
-			<Item Name="EventsProcessSchema.Caption" Value="กระบวนการทางธุรกิจ" />
+			<Item Name="Caption" Value="Contact address" />
 		</Items>
 	</Group>
 </Resources>

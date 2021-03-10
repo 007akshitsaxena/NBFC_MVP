@@ -2,7 +2,7 @@
 <Resources Culture="vi-VN">
 	<Group Type="String">
 		<Items>
-			<Item Name="EventsProcessSchema.Caption" Value="Quá trình kinh doanh" />
+			<Item Name="Caption" Value="Contact address" />
 		</Items>
 	</Group>
 </Resources>

@@ -112,6 +112,7 @@
           "A5": "53a5fc4d-6849-4a3f-8927-cb1d79944ed4",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "52909ceb-9024-4a69-9dc5-d6c7f19c368b",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -161,7 +162,8 @@
           "BL8": "52909ceb-9024-4a69-9dc5-d6c7f19c368b",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaScriptTask",
@@ -178,7 +180,7 @@
           "BO3": true,
           "BP2": [],
           "CL2": "FFFFFFFF",
-          "CH1": "UserConnection UserConnection = Get<UserConnection>(\"UserConnection\");\nGuid record_id = Get<Guid>(\"RecordId\");\nstring file_path = Get<string>(\"FilePath\");\nstring entitySchemaName = Get<string>(\"EntitySchemaName\");\nstring parentColumnName = Get<string>(\"ParentColumnName\");\nstring FileName = Get<string>(\"FileName\");\n \nbyte[] byteArray = File.ReadAllBytes(file_path);\n    \nvar parentColumnValue = record_id;\n\nvar fileContent = new MemoryStream(byteArray);\nvar size = byteArray.Length;\n\n//var filename = file.Substring(file.LastIndexOf(@\"\\\") + 1);\nvar typeId = new Guid(\"529bc2f8-0ee0-df11-971b-001d60e938c6\");\nvar version = \"1\";\n\nEntitySchema entitySchema = UserConnection.EntitySchemaManager.GetInstanceByName(entitySchemaName);\nEntity entity = entitySchema.CreateEntity(UserConnection);\nentity.SetDefColumnValues();\nEntitySchemaColumn column = entitySchema.Columns.FindByName(parentColumnName);\nentity.SetColumnValue(column.ColumnValueName, parentColumnValue);\nentity.SetStreamValue(\"Data\", fileContent);\nentity.SetColumnValue(\"Size\", size);\nentity.SetColumnValue(\"Name\", FileName);\nentity.SetColumnValue(\"TypeId\", typeId);\nentity.SetColumnValue(\"Version\", version);\nentity.Save();\n\t\n//\tFile.Delete(file); \n\n\t\n   \n\n\t\n\n// if (Directory.Exists(file_path))  \n// {  \n//     Directory.Delete(file_path);  \n// }  \n\nreturn true;",
+          "CH1": "UserConnection UserConnection = Get<UserConnection>(\"UserConnection\");\nGuid record_id = Get<Guid>(\"RecordId\");\nstring file_path = Get<string>(\"FilePath\");\nstring entitySchemaName = Get<string>(\"EntitySchemaName\");\nstring parentColumnName = Get<string>(\"ParentColumnName\");\nstring FileName = Get<string>(\"FileName\");\n \nbyte[] byteArray = File.ReadAllBytes(file_path);\n    \nvar parentColumnValue = record_id;\n\nvar fileContent = new MemoryStream(byteArray);\nvar size = byteArray.Length;\n\nvar fileName = FileName + file_path.Substring(file_path.LastIndexOf(@\".\"));\nvar typeId = new Guid(\"529bc2f8-0ee0-df11-971b-001d60e938c6\");\nvar version = \"1\";\n\nEntitySchema entitySchema = UserConnection.EntitySchemaManager.GetInstanceByName(entitySchemaName);\nEntity entity = entitySchema.CreateEntity(UserConnection);\nentity.SetDefColumnValues();\nEntitySchemaColumn column = entitySchema.Columns.FindByName(parentColumnName);\nentity.SetColumnValue(column.ColumnValueName, parentColumnValue);\nentity.SetStreamValue(\"Data\", fileContent);\nentity.SetColumnValue(\"Size\", size);\nentity.SetColumnValue(\"Name\", fileName);\nentity.SetColumnValue(\"TypeId\", typeId);\nentity.SetColumnValue(\"Version\", version);\nentity.Save();\n\t\n//\tFile.Delete(file); \n\n\t\n   \n\n\t\n\n// if (Directory.Exists(file_path))  \n// {  \n//     Directory.Delete(file_path);  \n// }  \n\nreturn true;",
           "CH2": true
         },
         {

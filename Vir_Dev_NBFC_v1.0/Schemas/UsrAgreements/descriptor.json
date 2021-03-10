@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "0d33379e-37c6-4281-8776-0c9a046f7e69",
     "Name": "UsrAgreements",
-    "ModifiedOnUtc": "\/Date(1615138669000)\/",
+    "ModifiedOnUtc": "\/Date(1615373252000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"

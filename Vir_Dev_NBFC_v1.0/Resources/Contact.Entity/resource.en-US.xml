@@ -8,6 +8,7 @@
 			<Item Name="Columns.UsrAadhaarLastName.Caption" Value="Last Name as per Aadhaar" />
 			<Item Name="Columns.UsrAadhaarMiddleName.Caption" Value="Middle Name as per Aadhaar" />
 			<Item Name="Columns.UsrAadhaarNumber.Caption" Value="Aadhaar Number" />
+			<Item Name="Columns.UsrAddressForReport.Caption" Value="Address For Report" />
 			<Item Name="Columns.UsrAmountOnActiveApplications.Caption" Value="Total Amount on Active Applications" />
 			<Item Name="Columns.UsrCoApplicantMobileNumber.Caption" Value="Co-Applicant Mobile Number" />
 			<Item Name="Columns.UsrCoApplicantName.Caption" Value="Co-Applicant Name" />

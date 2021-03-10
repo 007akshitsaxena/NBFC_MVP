@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "c20eac13-5e75-4b57-a6a0-d8d91348ab38",
     "Name": "UsrContactUpdationProcess",
-    "ModifiedOnUtc": "\/Date(1614243285000)\/",
+    "ModifiedOnUtc": "\/Date(1615371415000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "Modify Contact for STEP = 2",
-    "DependsOn": []
+    "Caption": "Modify Contact for STEP = 2"
   }
 }

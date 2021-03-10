@@ -124,7 +124,7 @@ define("UsrAgreements1Page", [], function() {
 				"cb7ac233-e4f0-4f67-942f-6c41be99bcc8": {
 					"uId": "cb7ac233-e4f0-4f67-942f-6c41be99bcc8",
 					"enabled": true,
-					"removed": false,
+					"removed": true,
 					"ruleType": 0,
 					"property": 0,
 					"logical": 0,
@@ -196,7 +196,7 @@ define("UsrAgreements1Page", [], function() {
 				"b5407a21-12dd-43db-b85c-60a5c55592bd": {
 					"uId": "b5407a21-12dd-43db-b85c-60a5c55592bd",
 					"enabled": true,
-					"removed": false,
+					"removed": true,
 					"ruleType": 0,
 					"property": 0,
 					"logical": 0,
@@ -494,7 +494,7 @@ define("UsrAgreements1Page", [], function() {
 			},
 			{
 				"operation": "insert",
-				"name": "UsrTSContact890a44fc-5a1f-44dc-9819-3efec9ad8863",
+				"name": "UsrContact31561514-3904-4af8-929b-bbe10092fd39",
 				"values": {
 					"layout": {
 						"colSpan": 12,
@@ -503,14 +503,7 @@ define("UsrAgreements1Page", [], function() {
 						"row": 1,
 						"layoutName": "Header"
 					},
-					"bindTo": "UsrTSContact",
-					"labelConfig": {
-						"caption": {
-							"bindTo": "Resources.Strings.UsrTSContact890a44fc5a1f44dc98193efec9ad8863LabelCaption"
-						}
-					},
-					"enabled": true,
-					"contentType": 5
+					"bindTo": "UsrContact"
 				},
 				"parentName": "Header",
 				"propertyName": "items",
@@ -589,6 +582,150 @@ define("UsrAgreements1Page", [], function() {
 				"parentName": "Header",
 				"propertyName": "items",
 				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "FLOAT130855ca-2b41-4c31-9cc6-d8082e061313",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 3,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrInterestRate",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "FLOATf44b3440-e284-4fe3-9eaa-2a9bfeeea420",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 4,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrApprovalFee",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "FLOATe4583120-2d25-4d94-a94c-1073645ccc72",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 5,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrOriginationFee",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
+				"name": "FLOAT6f9bbe7b-fc25-48b0-8906-cb63994bb2c0",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 6,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrOnlineSecureFee",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "FLOAT77552d9d-13a5-44b6-917d-1102a8864e2e",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 7,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrCollectionFee",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "FLOAT2e28c9cd-e652-43fb-be63-822b4af63db2",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 8,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrExtensionPaymentFee",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 13
+			},
+			{
+				"operation": "insert",
+				"name": "FLOAT78ba2e35-f85c-47b5-b4bb-cc77ae4bfafa",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 9,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrLatePaymentFee",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 14
+			},
+			{
+				"operation": "insert",
+				"name": "FLOATd9fa6ca0-c38e-4911-9aec-381db1d16021",
+				"values": {
+					"layout": {
+						"colSpan": 12,
+						"rowSpan": 1,
+						"column": 12,
+						"row": 10,
+						"layoutName": "Header"
+					},
+					"bindTo": "UsrInterestAmount",
+					"enabled": true
+				},
+				"parentName": "Header",
+				"propertyName": "items",
+				"index": 15
 			},
 			{
 				"operation": "insert",

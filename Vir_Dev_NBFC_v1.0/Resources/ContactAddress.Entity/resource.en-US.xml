@@ -2,11 +2,15 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="Columns.UsrAddressLine1.Caption" Value="Address Line 1" />
-			<Item Name="Columns.UsrAddressLine2.Caption" Value="Address Line 2" />
+			<Item Name="Columns.City.Caption" Value="Current City" />
+			<Item Name="Columns.Country.Caption" Value="Current Country" />
+			<Item Name="Columns.Region.Caption" Value="Current State" />
+			<Item Name="Columns.UsrBlank.Caption" Value="Blank" />
+			<Item Name="Columns.UsrCurrentBuilding.Caption" Value="Current Building" />
+			<Item Name="Columns.UsrCurrentLandmark.Caption" Value="Current Landmark" />
+			<Item Name="Columns.UsrCurrentPIN.Caption" Value="Current PIN" />
+			<Item Name="Columns.UsrCurrentStreet.Caption" Value="Current Street" />
 			<Item Name="Columns.UsrIsCurrent.Caption" Value="IsCurrent" />
-			<Item Name="Columns.UsrLandmark.Caption" Value="Landmark" />
-			<Item Name="Columns.UsrPIN.Caption" Value="PIN" />
 		</Items>
 	</Group>
 </Resources>

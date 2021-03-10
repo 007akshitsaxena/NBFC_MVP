@@ -16,7 +16,7 @@ define("ContactPageV2", [], function() {
 				"schemaName": "UsrSchema2b9dec1aDetail",
 				"entitySchemaName": "UsrAgreements",
 				"filter": {
-					"detailColumn": "UsrTSContact",
+					"detailColumn": "UsrContact",
 					"masterColumn": "Id"
 				}
 			},
